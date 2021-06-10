@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+        }
+
+    ul.topnav {
+        list-style-type: none;margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:#F5F8FA;
+        font-size: 29.5px;
+        font-family: quicksand; }
+
+    ul.topnav li {
+        float: left;}
+
+    ul.topnav li a {
+        display: block;
+        color: #33475b;
+        text-align: center;
+        padding: 5px 10px;
+        text-decoration: none;
+        margin-top: 5px;
+        margin-bottom: 0px;}
+
+    ul.topnav li.palos{  
+        margin-top: 5px;}
+
+    ul.topnav li div a.boton{
+        background-color:#8bd6f1 ;
+        border-radius: 15px;
+        margin-left: 10px; }
+
+    ul.topnav li div a.boton2{
+        background-color:#8bd6f1;
+        border-radius: 15px;
+        margin-left:10px;
+        font-size: 25px;}
+    
+    ul.topnav li.left {margin-top: 5px;}
+    .topnav a:hover{
+        border-radius: 5px;
+        padding: 0.2em  0.8rem;
+        background-color:rgba(0, 0, 0, 0.103);
+        border-radius: 15px;
+        transition: all 0.3s linear;    }
+
+    .ENCABEZADO h1{
+        text-align: center;
+        margin-top: 15px;}
+
+    .title{
+        font-size: 5vh;
+        font-weight: bold;
+        font-family: "Quicksand";
+        padding-top: 2vh;
+        padding-left: 35vh;
+    }
+    .container{
+        width: 90%;
+        height: 200vh;
+        background-color: whitesmoke;
+        margin: 5%;
+    }
+    .seccion{
+        padding: 2%;
+    }
+    .titleh2{
+        font-size: 5vh;
+        font-style: "Quicksand";
+        color: tomato;
+    }
+    .cuadro{
+        width: 45%;
+        height: 50vh;
+        border: black 1px solid;
+        float: left;
+        margin: 1%;
+        align-items: center;
+        border-radius: 6%;
+    }
+    .titulo1{
+        font-family: "Quicksand";
+        font-size: small;
+        color: white;
+        position: relative;
+        top: 3% ;
+        left: 3%;
+    }
+    .titulo2{
+        font-family: "Quicksand";
+        font-size: medium;
+        color: white;
+        font-weight: bold;
+        position: relative;
+        top:55% ;
+    }
+    .titulo3{
+        font-family: serif;
+        font-weight: bold;
+        font-size: 6vh;
+        width: 60%;
+        color: white;
+        position: relative;
+        top: 56% ;
+    }
+    
+    .btdetalles{
+        background-color: tomato;
+        height: 10%;
+        width: 25%;
+        border-radius: 10%;
+        text-align: center;
+        padding: 2%;    
+        position: relative;
+        top: 45% ;
+        left: 70%;
+        text-decoration: none;
+        color:white;
+        font-size: 100%;
+        font-weight: bold;
+    }
+
+    #Tokio{
+        background-image: url(/imagenes/tokio.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #Las-vegas{
+        background-image: url(/imagenes/las\ vegas.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    @media screen and (max-width: 600px) {
+        h2 {
+            font-size: 10px;}
+        .contenedor-imagenes {
+            width: 90%; }
+            .contenedor-imagenes .imagen {width: 48%;
+            }
+
+        ul.topnav li.right,ul.topnav li.left{
+            margin-left: 180px;}
+
+        ul.topnav li.palos  {
+            margin-top: 0;
+            display: none;}
+
+        ul.topnav li div a.boton {
+            margin-left: 0px; }
+
+        ul.topnav li {
+            float: none;}ul.topnav li  {font-size: 13px;}
+        .title{
+            font-size: 5vh;
+            font-weight: bold;
+            font-family: "Quicksand";
+            padding-top: 2vh;
+            padding-left: 0vh;
+            text-align:center;
+            }
+        .cuadro{
+        width: 95%;
+        height: 50vh;
+        border: black 1px solid;
+        margin: 3%;
+        align-items: center;
+        }
+        .titleh2{
+            font-size: 5vh;
+            font-style: "Quicksand";
+            color: tomato;
+            text-align: center;
+        }}
+            
