@@ -82,19 +82,20 @@
     }
     .titulo1{
         font-family: "Quicksand";
-        font-size: small;
+        font-size: 120%;
         color: white;
         position: relative;
         top: 3% ;
-        left: 3%;
+        left: 4%;
     }
     .titulo2{
         font-family: "Quicksand";
-        font-size: medium;
+        font-size: 160%;
         color: white;
-        font-weight: bold;
+        font-weight: bolder;
         position: relative;
         top:55% ;
+        left: 1%;
     }
     .titulo3{
         font-family: serif;
@@ -104,6 +105,7 @@
         color: white;
         position: relative;
         top: 56% ;
+        left: 1%;
     }
     
     .btdetalles{
@@ -116,17 +118,41 @@
         position: relative;
         top: 45% ;
         left: 70%;
+    }
+    .btdetalles>a{
         text-decoration: none;
         color:white;
-        font-size: 100%;
+        font-size: 160%;
         font-weight: bold;
+        font-family: "Quicksand";
     }
-
     #Tokio{
         background-image: url(/imagenes/tokio.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+    #hotel1{
+        background-image: url(/imagenes/hotel1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;}
+
+    #hotel2{
+        background-image: url(/imagenes/hotel2.webp);
+        background-repeat: no-repeat;
+        background-size: cover;}
+    
+    #hotel3{
+        background-image: url(/imagenes/hotel3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;}
+    
+    #hotel4{
+        background-image: url(/imagenes/hotel4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;}
+
+
     #Las-vegas{
         background-image: url(/imagenes/las\ vegas.jpg);
         background-repeat: no-repeat;
@@ -173,5 +199,51 @@
             font-style: "Quicksand";
             color: tomato;
             text-align: center;
+        }
+        .titulo1{
+            font-family: "Quicksand";
+            font-size: 120%;
+            color: white;
+            position: relative;
+            top: 3% ;
+            left: 4%;
+        }
+        .titulo2{
+            font-family: "Quicksand";
+            font-size: 160%;
+            color: white;
+            font-weight: bolder;
+            position: relative;
+            top:55% ;
+            left: 1%;
+        }
+        .titulo3{
+            font-family: serif;
+            font-weight: bold;
+            font-size: 6vh;
+            width: 60%;
+            color: white;
+            position: relative;
+            top: 56% ;
+            left: 1%;
+        }
+        
+        .btdetalles{
+            background-color: tomato;
+            height: 10%;
+            width: 25%;
+            border-radius: 10%;
+            text-align: center;
+            padding: 2%;    
+            position: relative;
+            top: 45% ;
+            left: 70%;
+        }
+        .btdetalles>a{
+            text-decoration: none;
+            color:white;
+            font-size: 160%;
+            font-weight: bold;
+            font-family: "Quicksand";
         }}
             
