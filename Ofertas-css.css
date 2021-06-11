@@ -134,52 +134,52 @@ body{
         font-family: "Quicksand";
     }
     #Tokio{
-        background-image: url(/imagenes/tokio.jpg);
+        background-image: url(tokio.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     #hotel1{
-        background-image: url(/imagenes/hotel1.jpg);
+        background-image: url(hotel1.jpg);
         background-repeat: no-repeat;
         background-size: cover;}
 
     #hotel2{
-        background-image: url(/imagenes/hotel2.webp);
+        background-image: url(hotel2.webp);
         background-repeat: no-repeat;
         background-size: cover;}
     
     #hotel3{
-        background-image: url(/imagenes/hotel3.jpg);
+        background-image: url(hotel3.jpg);
         background-repeat: no-repeat;
         background-size: cover;}
     
     #hotel4{
-        background-image: url(/imagenes/hotel4.jpg);
+        background-image: url(hotel4.jpg);
         background-repeat: no-repeat;
         background-size: cover;}
 
 
     #Las-vegas{
-        background-image: url(/imagenes/las\ vegas.jpg);
+        background-image: url(las\ vegas.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     #auto1{
-        background-image: url(/imagenes/audi.jpg);
+        background-image: url(audi.jpg);
         background-repeat: no-repeat;
         background-size: cover;}
     #auto2{
-        background-image: url(/imagenes/honda.jpg);
+        background-image: url(honda.jpg);
         background-repeat: no-repeat;
         background-size: cover;}
     #auto3{
-        background-image: url(/imagenes/fordfocus.jpg);
+        background-image: url(fordfocus.jpg);
         background-repeat: no-repeat;
         background-size: cover;}
     #auto4{
-        background-image: url(/imagenes/volkswagen.jpg);
+        background-image: url(volkswagen.jpg);
         background-repeat: no-repeat;
         background-size: cover;}        
     @media screen and (max-width: 812px) {
