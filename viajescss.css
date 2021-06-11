@@ -124,14 +124,14 @@
       height: 80%;
   }
 }
- 
+
 .ENCABEZADO {text-align: center; margin-top: 3%;}
-.calendario  {text-align: left; font-size: 25px; text-align:center;
+.hola{text-align: left; font-size: 15px; text-align:center;
     
 }
 .ida{text-align: right; font-weight: bold; padding-right: 150px;}
 .central{background-color: rgb(221, 217, 217);margin-top: 30px; margin-bottom: 15px;}
-@media only screen and (min-width:450px){ .calendario{font-size: 50%;}  }
+
 .boton{background-color:rgb(172, 54, 54) ;margin-left: 70%; color:black;text-decoration: none; font-size: 30px; text-align: right;}
 @media only screen and (min-width:450px){
 .col-m-1{width: 8.33%;}
