@@ -5,7 +5,7 @@
         }
 body{
     background-color: #F5F8FA;
-    background-image: url(imagenes/body.jpg);
+    background-image: url(body.jpg);
     
 }
     ul.topnav {
@@ -134,7 +134,7 @@ body{
         font-family: "Quicksand";
     }
     #Tokio{
-        background-image: url(tokio.jpg);
+        background-image: url(TOKIO.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
