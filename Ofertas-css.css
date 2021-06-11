@@ -3,7 +3,11 @@
     padding: 0;
     box-sizing: border-box;
         }
-
+body{
+    background-color: #F5F8FA;
+    background-image: url(imagenes/body.jpg);
+    
+}
     ul.topnav {
         list-style-type: none;margin: 0;
         padding: 0;
@@ -54,14 +58,16 @@
         font-size: 5vh;
         font-weight: bold;
         font-family: "Quicksand";
-        padding-top: 2vh;
-        padding-left: 35vh;
+        padding-top: 9vh;
+        padding-left: 48vh;
     }
     .container{
         width: 90%;
-        height: 200vh;
-        background-color: whitesmoke;
+        height: 290vh;
+        background-color: rgba(0, 0, 0, 0.39);
+        align-items: center;
         margin: 5%;
+        padding-left: 5%;
     }
     .seccion{
         padding: 2%;
@@ -74,11 +80,12 @@
     .cuadro{
         width: 45%;
         height: 50vh;
-        border: black 1px solid;
+        border: rgba(255, 255, 255, 0.322) 1px solid;
         float: left;
         margin: 1%;
         align-items: center;
         border-radius: 6%;
+        position: relative;
     }
     .titulo1{
         font-family: "Quicksand";
@@ -114,10 +121,10 @@
         width: 25%;
         border-radius: 10%;
         text-align: center;
-        padding: 2%;    
-        position: relative;
-        top: 45% ;
-        left: 70%;
+        padding: 1%;    
+        position: absolute;
+        top: 300px ;
+        left: 350px;
     }
     .btdetalles>a{
         text-decoration: none;
@@ -159,7 +166,23 @@
         background-size: cover;
     }
 
-    @media screen and (max-width: 600px) {
+    #auto1{
+        background-image: url(/imagenes/audi.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;}
+    #auto2{
+        background-image: url(/imagenes/honda.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;}
+    #auto3{
+        background-image: url(/imagenes/fordfocus.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;}
+    #auto4{
+        background-image: url(/imagenes/volkswagen.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;}        
+    @media screen and (max-width: 812px) {
         h2 {
             font-size: 10px;}
         .contenedor-imagenes {
@@ -187,62 +210,46 @@
             padding-left: 0vh;
             text-align:center;
             }
+        .container{
+            width: 90%;
+            height: 550vh;
+            background-color: rgba(0, 0, 0, 0.39);
+            align-items: center;
+            margin: 5%;
+            padding-left: 1%;}
         .cuadro{
-        width: 95%;
-        height: 50vh;
-        border: black 1px solid;
-        margin: 3%;
-        align-items: center;
-        }
-        .titleh2{
-            font-size: 5vh;
-            font-style: "Quicksand";
-            color: tomato;
-            text-align: center;
-        }
-        .titulo1{
-            font-family: "Quicksand";
-            font-size: 120%;
-            color: white;
+            width: 98%;
+            height: 50vh;
+            border: rgba(255, 255, 255, 0.322) 1px solid;
+            float: left;
+            margin: 1%;
+            align-items: center;
+            border-radius: 6%;
             position: relative;
-            top: 3% ;
-            left: 4%;
-        }
-        .titulo2{
-            font-family: "Quicksand";
-            font-size: 160%;
-            color: white;
-            font-weight: bolder;
-            position: relative;
-            top:55% ;
-            left: 1%;
-        }
-        .titulo3{
-            font-family: serif;
-            font-weight: bold;
-            font-size: 6vh;
-            width: 60%;
-            color: white;
-            position: relative;
-            top: 56% ;
-            left: 1%;
         }
         
+        .titulo2{
+            font-size: 2vh;
+        }
+        .titulo3{
+            font-size: 5vh;
+            width: 70%;
+        }
         .btdetalles{
             background-color: tomato;
             height: 10%;
-            width: 25%;
+            width: 30%;
             border-radius: 10%;
             text-align: center;
-            padding: 2%;    
-            position: relative;
-            top: 45% ;
-            left: 70%;
+            padding: 1%;    
+            position: absolute;
+            top: 340px ;
+            left: 200px;
         }
         .btdetalles>a{
             text-decoration: none;
             color:white;
-            font-size: 160%;
+            font-size: 130%;
             font-weight: bold;
             font-family: "Quicksand";
         }}
