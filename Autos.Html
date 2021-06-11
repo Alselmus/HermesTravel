@@ -1,0 +1,4200 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Autos</title>
+        <link href="estilos.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Quicksand&display=swap" rel="stylesheet">
+        <style>
+
+            body{
+                background-color: #C4C4C4;
+                background-repeat: no-repeat;
+                Background-size: 100%;
+                Background-attachment: fixed;
+            }
+
+            /*celulares*/
+            .col-1{width: 8.33%;}
+            .col-2{width: 16.66%;}
+            .col-3{width: 25%;}
+            .col-4{width: 33.33%;}
+            .col-5{width: 41.66%;}
+            .col-6{width: 50%;}
+            .col-7{width: 58.33%;}
+            .col-8{width: 66.66%;}
+            .col-9{width: 75%;}
+            .col-10{width: 83.33%;}
+            .col-11{width: 91.66%;}
+            .col-12{width: 100%;}  
+        
+            /*tablet*/
+            @media only screen and (min-width:668px){
+            .col-m-1{width: 8.33%;}
+            .col-m-2{width: 16.66%;}
+            .col-m-3{width: 25%;}
+            .col-m-4{width: 33.33%;}
+            .col-m-5{width: 41.66%;}
+            .col-m-6{width: 50%;}
+            .col-m-7{width: 58.33%;}
+            .col-m-8{width: 66.66%;}
+            .col-m-9{width: 75%;}
+            .col-m-10{width: 83.33%;}
+            .col-m-11{width: 91.66%;}
+            .col-m-12{width: 100%;}  
+          
+            }
+            /*pc*/
+            @media only screen and (min-width:768px){
+            .col-g-1{width: 8.33%;}
+            .col-g-2{width: 16.66%;}
+            .col-g-3{width: 25%;}
+            .col-g-4{width: 33.33%;}
+            .col-g-5{width: 41.66%;}
+            .col-g-6{width: 50%;}
+            .col-g-7{width: 58.33%;}
+            .col-g-8{width: 66.66%;}
+            .col-g-9{width: 75%;}
+            .col-g-10{width: 83.33%;}
+            .col-g-11{width: 91.66%;}
+            .col-g-12{width: 100%;} 
+            }
+            .imagen{
+                background-color: #F6F7F8;
+                padding: 10px;
+                border-radius: 5px; 
+                width:80%;
+                float:left;
+                margin-left: 5%;
+                filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));  
+                border-color: #C4C4C4;
+            }
+            .text {
+                background-color: #F6F7F8;
+                padding: 10px;
+                border-radius: 5px;
+                width:60%;
+                float: left;
+                font-weight: bold;
+                font-size: 40px;
+                font-family:Quicksand;
+                margin-top:2%;
+                margin-left: 12%;
+                color: red;
+                filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));
+                border-color: #C4C4C4;
+            }
+            
+            .text ul{
+                font-weight: bold;
+                font-size: 20px;
+                font-family:serif;
+                color: #000000; 
+            }
+            
+            .text input[type=submit]{
+                padding: 15px 15px;
+                background-color: tomato;
+                color:black;
+                font-weight: bold;
+                text-transform: uppercase;
+                border:none;
+                outline: none;
+                width: 30%;
+                font-size: 0.34em;
+                font-family: 'Quicksand', sans-serif;
+                border-radius: 25px;
+                margin-left: 70%;
+            }
+
+            .text input:hover[type=submit]:hover{
+                color:white;
+              background-color:rgb(247, 45, 9) ;
+              border-radius: 25px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="nav">
+            <ul class="topnav">
+                <li class="left"> <img src="titulo.jpg " width="50px"></li>
+                <li><a class="right" href="Index.html">VIAJES</a></li>
+                <li class="palos">|</li>
+                <li><a class="right" href="Vuelos.html">VUELOS</a></li>
+                <li class="palos">|</li>
+                <li><a class="right" href="Ciudades.html">HOTELES</a></li>
+                <li class="palos">|</li>
+                <li><a class="right" href="Autos.Html">AUTOS</a></li>
+                <li class="palos">|</li>
+                <li><a class="right" href="Seguro.html">SEGURO</a></li>
+                <li class="palos">|</li>
+                <li><a class="right" href="Manula.html">MANUAL</a></li>
+                <li><div><a class="boton" href="#contact"><img src="icons8-cuenta-96.png" width="25px">Registrar</a></div></li>
+                <li><div><a class="boton2" href="#contact"><img src="icons8-cuenta-96.png" width="20px">Inicio de sesion</a></div></li>
+            </ul>
+        </div>
+        <div class="col-g-6 col-m-6 col-6 imagen" align="center">
+            <img src= "https://i.blogs.es/d46bf6/audi-a4-2020-precio-mexico_/840_560.jpg" alt="" width="80%" height="80%" align="center" > 
+        </div>
+        <div class="col-g-6 col-m-6 col-6 text" align="center">
+            <p>Audi A4</p>
+            <ul align= "left">
+                <li>Version: S4 TDI quattro Tiptronic 255kW - 4-puertas - 2021 </li><br>
+                <li>Cambio: Autimatico</li><br>
+                <li>Combustible: Diesel</li><br>
+                <li>Potencia: 341 CV</li><br>
+                <li>Año: 2020</li><br>
+                <li>Precio: 62.114€</li>
+            </ul>
+            <input type="submit" value="¡Comprelo ya!">
+        </div>
+
+
+
+    </body>
+
+
+    <style>
+
+        body{
+            background-color: #C4C4C4;
+            background-repeat: no-repeat;
+            Background-size: 100%;
+            Background-attachment: fixed;
+        }
+
+        /*celulares*/
+        .col-1{width: 8.33%;}
+        .col-2{width: 16.66%;}
+        .col-3{width: 25%;}
+        .col-4{width: 33.33%;}
+        .col-5{width: 41.66%;}
+        .col-6{width: 50%;}
+        .col-7{width: 58.33%;}
+        .col-8{width: 66.66%;}
+        .col-9{width: 75%;}
+        .col-10{width: 83.33%;}
+        .col-11{width: 91.66%;}
+        .col-12{width: 100%;}  
+    
+        /*tablet*/
+        @media only screen and (min-width:668px){
+        .col-m-1{width: 8.33%;}
+        .col-m-2{width: 16.66%;}
+        .col-m-3{width: 25%;}
+        .col-m-4{width: 33.33%;}
+        .col-m-5{width: 41.66%;}
+        .col-m-6{width: 50%;}
+        .col-m-7{width: 58.33%;}
+        .col-m-8{width: 66.66%;}
+        .col-m-9{width: 75%;}
+        .col-m-10{width: 83.33%;}
+        .col-m-11{width: 91.66%;}
+        .col-m-12{width: 100%;}  
+      
+        }
+        /*pc*/
+        @media only screen and (min-width:768px){
+        .col-g-1{width: 8.33%;}
+        .col-g-2{width: 16.66%;}
+        .col-g-3{width: 25%;}
+        .col-g-4{width: 33.33%;}
+        .col-g-5{width: 41.66%;}
+        .col-g-6{width: 50%;}
+        .col-g-7{width: 58.33%;}
+        .col-g-8{width: 66.66%;}
+        .col-g-9{width: 75%;}
+        .col-g-10{width: 83.33%;}
+        .col-g-11{width: 91.66%;}
+        .col-g-12{width: 100%;} 
+        }
+        .imagen{
+            margin-top: 10px;
+            background-color: #F6F7F8;
+            padding: 10px;
+            border-radius: 5px; 
+            width:80%;
+            float:left;
+            margin-left: 5%;
+            filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));  
+            border-color: #C4C4C4;
+        }
+        .text {
+            
+            background-color: #F6F7F8;
+            padding: 10px;
+            border-radius: 5px;
+            width:60%;
+            float: left;
+            font-weight: bold;
+            font-size: 40px;
+            font-family:Quicksand;
+            margin-top:2%;
+            margin-left: 12%;
+            color: red;
+            filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));
+            border-color: #C4C4C4;
+        }
+        
+        .text ul{
+            font-weight: bold;
+            font-size: 20px;
+            font-family:serif;
+            color: #000000; 
+        }
+        
+        .text input[type=submit]{
+            padding: 15px 15px;
+            background-color: tomato;
+            color:black;
+            font-weight: bold;
+            text-transform: uppercase;
+            border:none;
+            outline: none;
+            width: 30%;
+            font-size: 0.34em;
+            font-family: 'Quicksand', sans-serif;
+            border-radius: 25px;
+            margin-left: 70%;
+        }
+
+        .text input:hover[type=submit]:hover{
+            color:white;
+          background-color:rgb(247, 45, 9) ;
+          border-radius: 25px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="col-g-6 col-m-6 col-6 imagen" align="center">
+        <img src= "https://media.gossipvehiculo.com/wp-content/uploads/2020/12/05142524/Alfa-Romeo.jpg" alt="" width="80%" height="80%" align="center" > 
+    </div>
+    <div class="col-g-6 col-m-6 col-6 text" align="center">
+        <p>Alfa Romero Stelvio</p>
+        <ul align= "left">
+            <li>Version: Stelvio 2.0 Sprint + Q4 Aut. 200 - 5-puertas - 2021 </li><br>
+            <li>Cambio: Autimatico</li><br>
+            <li>Combustible: Gasolina</li><br>
+            <li>Potencia: 200 CV</li><br>
+            <li>Año: 2021</li><br>
+            <li>Precio: 52.134 €</li>
+        </ul>
+        <input type="submit" value="¡Comprelo ya!">
+    </div>
+
+</body>
+
+<style>
+
+    body{
+        background-color: #C4C4C4;
+        background-repeat: no-repeat;
+        Background-size: 100%;
+        Background-attachment: fixed;
+    }
+
+    /*celulares*/
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}  
+
+    /*tablet*/
+    @media only screen and (min-width:668px){
+    .col-m-1{width: 8.33%;}
+    .col-m-2{width: 16.66%;}
+    .col-m-3{width: 25%;}
+    .col-m-4{width: 33.33%;}
+    .col-m-5{width: 41.66%;}
+    .col-m-6{width: 50%;}
+    .col-m-7{width: 58.33%;}
+    .col-m-8{width: 66.66%;}
+    .col-m-9{width: 75%;}
+    .col-m-10{width: 83.33%;}
+    .col-m-11{width: 91.66%;}
+    .col-m-12{width: 100%;}  
+  
+    }
+    /*pc*/
+    @media only screen and (min-width:768px){
+    .col-g-1{width: 8.33%;}
+    .col-g-2{width: 16.66%;}
+    .col-g-3{width: 25%;}
+    .col-g-4{width: 33.33%;}
+    .col-g-5{width: 41.66%;}
+    .col-g-6{width: 50%;}
+    .col-g-7{width: 58.33%;}
+    .col-g-8{width: 66.66%;}
+    .col-g-9{width: 75%;}
+    .col-g-10{width: 83.33%;}
+    .col-g-11{width: 91.66%;}
+    .col-g-12{width: 100%;} 
+    }
+    .imagen{
+        margin-top: 10px;
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px; 
+        width:80%;
+        float:left;
+        margin-left: 5%;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));  
+        border-color: #C4C4C4;
+    }
+    .text {
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px;
+        width:60%;
+        float: left;
+        font-weight: bold;
+        font-size: 40px;
+        font-family:Quicksand;
+        margin-top:2%;
+        margin-left: 12%;
+        color: red;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));
+        border-color: #C4C4C4;
+    }
+    
+    .text ul{
+        font-weight: bold;
+        font-size: 20px;
+        font-family:serif;
+        color: #000000; 
+    }
+    
+    .text input[type=submit]{
+        padding: 15px 15px;
+        background-color: tomato;
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+        border:none;
+        outline: none;
+        width: 30%;
+        font-size: 0.34em;
+        font-family: 'Quicksand', sans-serif;
+        border-radius: 25px;
+        margin-left: 70%;
+    }
+
+    .text input:hover[type=submit]:hover{
+        color:white;
+      background-color:rgb(247, 45, 9) ;
+      border-radius: 25px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="col-g-6 col-m-6 col-6 imagen" align="center">
+    <img src= "https://img.autocosmos.com/noticias/fotos/preview/NAZ_25fefb4b41ce47d987452107b4ecef58.jpg" alt="" width="80%" height="80%" align="center" > 
+</div>
+<div class="col-g-6 col-m-6 col-6 text" align="center">
+    <p>BMW Serie5</p>
+    <ul align= "left">
+        <li>Version: M5A CS - 4-puertas - 2021 </li><br>
+        <li>Cambio: Autimatico</li><br>
+        <li>Combustible: Gasolina</li><br>
+        <li>Potencia: 635 CV</li><br>
+        <li>Año: 2021</li><br>
+        <li>Precio: 207.300€</li>
+    </ul>
+    <input type="submit" value="¡Comprelo ya!">
+</div>
+
+</body>
+
+<style>
+
+    body{
+        background-color: #C4C4C4;
+        background-repeat: no-repeat;
+        Background-size: 100%;
+        Background-attachment: fixed;
+    }
+
+    /*celulares*/
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}  
+
+    /*tablet*/
+    @media only screen and (min-width:668px){
+    .col-m-1{width: 8.33%;}
+    .col-m-2{width: 16.66%;}
+    .col-m-3{width: 25%;}
+    .col-m-4{width: 33.33%;}
+    .col-m-5{width: 41.66%;}
+    .col-m-6{width: 50%;}
+    .col-m-7{width: 58.33%;}
+    .col-m-8{width: 66.66%;}
+    .col-m-9{width: 75%;}
+    .col-m-10{width: 83.33%;}
+    .col-m-11{width: 91.66%;}
+    .col-m-12{width: 100%;}  
+  
+    }
+    /*pc*/
+    @media only screen and (min-width:768px){
+    .col-g-1{width: 8.33%;}
+    .col-g-2{width: 16.66%;}
+    .col-g-3{width: 25%;}
+    .col-g-4{width: 33.33%;}
+    .col-g-5{width: 41.66%;}
+    .col-g-6{width: 50%;}
+    .col-g-7{width: 58.33%;}
+    .col-g-8{width: 66.66%;}
+    .col-g-9{width: 75%;}
+    .col-g-10{width: 83.33%;}
+    .col-g-11{width: 91.66%;}
+    .col-g-12{width: 100%;} 
+    }
+    .imagen{
+        margin-top: 10px;
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px; 
+        width:80%;
+        float:left;
+        margin-left: 5%;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));  
+        border-color: #C4C4C4;
+    }
+    .text {
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px;
+        width:60%;
+        float: left;
+        font-weight: bold;
+        font-size: 40px;
+        font-family:Quicksand;
+        margin-top:2%;
+        margin-left: 12%;
+        color: red;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));
+        border-color: #C4C4C4;
+    }
+    
+    .text ul{
+        font-weight: bold;
+        font-size: 20px;
+        font-family:serif;
+        color: #000000; 
+    }
+    
+    .text input[type=submit]{
+        padding: 15px 15px;
+        background-color: tomato;
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+        border:none;
+        outline: none;
+        width: 30%;
+        font-size: 0.34em;
+        font-family: 'Quicksand', sans-serif;
+        border-radius: 25px;
+        margin-left: 70%;
+    }
+
+    .text input:hover[type=submit]:hover{
+        color:white;
+      background-color:rgb(247, 45, 9) ;
+      border-radius: 25px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="col-g-6 col-m-6 col-6 imagen" align="center">
+    <img src= "data:image/jpeg;base64,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" alt="" width="80%" height="80%" align="center" > 
+</div>
+<div class="col-g-6 col-m-6 col-6 text" align="center">
+    <p>Citroen C4 Cactus</p>
+    <ul align= "left">
+        <li>Version: C4 Cactus 1.2 PureTech S&S C-Series 110 - 5-puertas - 2020 </li><br>
+        <li>Cambio: Manual</li><br>
+        <li>Combustible: Gasolina</li><br>
+        <li>Potencia: 110 CV</li><br>
+        <li>Año: 2020</li><br>
+        <li>Precio: 16.034 €</li>
+    </ul>
+    <input type="submit" value="¡Comprelo ya!">
+</div>
+
+</body>
+
+<style>
+
+    body{
+        background-color: #C4C4C4;
+        background-repeat: no-repeat;
+        Background-size: 100%;
+        Background-attachment: fixed;
+    }
+
+    /*celulares*/
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}  
+
+    /*tablet*/
+    @media only screen and (min-width:668px){
+    .col-m-1{width: 8.33%;}
+    .col-m-2{width: 16.66%;}
+    .col-m-3{width: 25%;}
+    .col-m-4{width: 33.33%;}
+    .col-m-5{width: 41.66%;}
+    .col-m-6{width: 50%;}
+    .col-m-7{width: 58.33%;}
+    .col-m-8{width: 66.66%;}
+    .col-m-9{width: 75%;}
+    .col-m-10{width: 83.33%;}
+    .col-m-11{width: 91.66%;}
+    .col-m-12{width: 100%;}  
+  
+    }
+    /*pc*/
+    @media only screen and (min-width:768px){
+    .col-g-1{width: 8.33%;}
+    .col-g-2{width: 16.66%;}
+    .col-g-3{width: 25%;}
+    .col-g-4{width: 33.33%;}
+    .col-g-5{width: 41.66%;}
+    .col-g-6{width: 50%;}
+    .col-g-7{width: 58.33%;}
+    .col-g-8{width: 66.66%;}
+    .col-g-9{width: 75%;}
+    .col-g-10{width: 83.33%;}
+    .col-g-11{width: 91.66%;}
+    .col-g-12{width: 100%;} 
+    }
+    .imagen{
+        margin-top: 10px;
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px; 
+        width:80%;
+        float:left;
+        margin-left: 5%;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));  
+        border-color: #C4C4C4;
+    }
+    .text {
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px;
+        width:60%;
+        float: left;
+        font-weight: bold;
+        font-size: 40px;
+        font-family:Quicksand;
+        margin-top:2%;
+        margin-left: 12%;
+        color: red;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));
+        border-color: #C4C4C4;
+    }
+    
+    .text ul{
+        font-weight: bold;
+        font-size: 20px;
+        font-family:serif;
+        color: #000000; 
+    }
+    
+    .text input[type=submit]{
+        padding: 15px 15px;
+        background-color: tomato;
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+        border:none;
+        outline: none;
+        width: 30%;
+        font-size: 0.34em;
+        font-family: 'Quicksand', sans-serif;
+        border-radius: 25px;
+        margin-left: 70%;
+    }
+
+    .text input:hover[type=submit]:hover{
+        color:white;
+      background-color:rgb(247, 45, 9) ;
+      border-radius: 25px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="col-g-6 col-m-6 col-6 imagen" align="center">
+    <img src= "https://images1.autocasion.com/unsafe/900x600/actualidad/wp-content/uploads/2018/11/190117_Fiat_Tipo_Sport_01.jpg" alt="" width="80%" height="80%" align="center" > 
+</div>
+<div class="col-g-6 col-m-6 col-6 text" align="center">
+    <p>Fiat Tipo</p>
+    <ul align= "left">
+        <li>Version: Tipo SW 1.0 City Sport - 5-puertas - 2021 </li><br>
+        <li>Cambio: Manual</li><br>
+        <li>Combustible: Gasolina</li><br>
+        <li>Potencia: 100 CV</li><br>
+        <li>Año: 2021</li><br>
+        <li>Precio: 18.160 €</li>
+    </ul>
+    <input type="submit" value="¡Comprelo ya!">
+</div>
+
+</body>
+
+<style>
+
+    body{
+        background-color: #C4C4C4;
+        background-repeat: no-repeat;
+        Background-size: 100%;
+        Background-attachment: fixed;
+    }
+
+    /*celulares*/
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}  
+
+    /*tablet*/
+    @media only screen and (min-width:668px){
+    .col-m-1{width: 8.33%;}
+    .col-m-2{width: 16.66%;}
+    .col-m-3{width: 25%;}
+    .col-m-4{width: 33.33%;}
+    .col-m-5{width: 41.66%;}
+    .col-m-6{width: 50%;}
+    .col-m-7{width: 58.33%;}
+    .col-m-8{width: 66.66%;}
+    .col-m-9{width: 75%;}
+    .col-m-10{width: 83.33%;}
+    .col-m-11{width: 91.66%;}
+    .col-m-12{width: 100%;}  
+  
+    }
+    /*pc*/
+    @media only screen and (min-width:768px){
+    .col-g-1{width: 8.33%;}
+    .col-g-2{width: 16.66%;}
+    .col-g-3{width: 25%;}
+    .col-g-4{width: 33.33%;}
+    .col-g-5{width: 41.66%;}
+    .col-g-6{width: 50%;}
+    .col-g-7{width: 58.33%;}
+    .col-g-8{width: 66.66%;}
+    .col-g-9{width: 75%;}
+    .col-g-10{width: 83.33%;}
+    .col-g-11{width: 91.66%;}
+    .col-g-12{width: 100%;} 
+    }
+    .imagen{
+        margin-top: 10px;
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px; 
+        width:80%;
+        float:left;
+        margin-left: 5%;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));  
+        border-color: #C4C4C4;
+    }
+    .text {
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px;
+        width:60%;
+        float: left;
+        font-weight: bold;
+        font-size: 40px;
+        font-family:Quicksand;
+        margin-top:2%;
+        margin-left: 12%;
+        color: red;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));
+        border-color: #C4C4C4;
+    }
+    
+    .text ul{
+        font-weight: bold;
+        font-size: 20px;
+        font-family:serif;
+        color: #000000; 
+    }
+    
+    .text input[type=submit]{
+        padding: 15px 15px;
+        background-color: tomato;
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+        border:none;
+        outline: none;
+        width: 30%;
+        font-size: 0.34em;
+        font-family: 'Quicksand', sans-serif;
+        border-radius: 25px;
+        margin-left: 70%;
+    }
+
+    .text input:hover[type=submit]:hover{
+        color:white;
+      background-color:rgb(247, 45, 9) ;
+      border-radius: 25px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="col-g-6 col-m-6 col-6 imagen" align="center">
+    <img src= "https://st.motortrend.com/uploads/sites/5/2020/07/2019-Honda-Civic-Coupe-Sport-024.jpg" alt="" width="80%" height="80%" align="center" > 
+</div>
+<div class="col-g-6 col-m-6 col-6 text" align="center">
+    <p>Honda Civic</p>
+    <ul align= "left">
+        <li>Version: Civic 2.0 VTEC Turbo Type R Sport Line - 5-puertas - 2020 </li><br>
+        <li>Cambio: Autimatico</li><br>
+        <li>Combustible: Gasolina</li><br>
+        <li>Potencia: 320 CV</li><br>
+        <li>Año: 2020</li><br>
+        <li>Precio: 45.750 €</li>
+    </ul>
+    <input type="submit" value="¡Comprelo ya!">
+</div>
+
+</body>
+<style>
+
+    body{
+        background-color: #C4C4C4;
+        background-repeat: no-repeat;
+        Background-size: 100%;
+        Background-attachment: fixed;
+    }
+
+    /*celulares*/
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}  
+
+    /*tablet*/
+    @media only screen and (min-width:668px){
+    .col-m-1{width: 8.33%;}
+    .col-m-2{width: 16.66%;}
+    .col-m-3{width: 25%;}
+    .col-m-4{width: 33.33%;}
+    .col-m-5{width: 41.66%;}
+    .col-m-6{width: 50%;}
+    .col-m-7{width: 58.33%;}
+    .col-m-8{width: 66.66%;}
+    .col-m-9{width: 75%;}
+    .col-m-10{width: 83.33%;}
+    .col-m-11{width: 91.66%;}
+    .col-m-12{width: 100%;}  
+  
+    }
+    /*pc*/
+    @media only screen and (min-width:768px){
+    .col-g-1{width: 8.33%;}
+    .col-g-2{width: 16.66%;}
+    .col-g-3{width: 25%;}
+    .col-g-4{width: 33.33%;}
+    .col-g-5{width: 41.66%;}
+    .col-g-6{width: 50%;}
+    .col-g-7{width: 58.33%;}
+    .col-g-8{width: 66.66%;}
+    .col-g-9{width: 75%;}
+    .col-g-10{width: 83.33%;}
+    .col-g-11{width: 91.66%;}
+    .col-g-12{width: 100%;} 
+    }
+    .imagen{
+        margin-top: 10px;
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px; 
+        width:80%;
+        float:left;
+        margin-left: 5%;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));  
+        border-color: #C4C4C4;
+    }
+    .text {
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px;
+        width:60%;
+        float: left;
+        font-weight: bold;
+        font-size: 40px;
+        font-family:Quicksand;
+        margin-top:2%;
+        margin-left: 12%;
+        color: red;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));
+        border-color: #C4C4C4;
+    }
+    
+    .text ul{
+        font-weight: bold;
+        font-size: 20px;
+        font-family:serif;
+        color: #000000; 
+    }
+    
+    .text input[type=submit]{
+        padding: 15px 15px;
+        background-color: tomato;
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+        border:none;
+        outline: none;
+        width: 30%;
+        font-size: 0.34em;
+        font-family: 'Quicksand', sans-serif;
+        border-radius: 25px;
+        margin-left: 70%;
+    }
+
+    .text input:hover[type=submit]:hover{
+        color:white;
+      background-color:rgb(247, 45, 9) ;
+      border-radius: 25px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="col-g-6 col-m-6 col-6 imagen" align="center">
+    <img src= "https://i.blogs.es/deb432/mercedes-benz-a200-prueba-motorpasion-1portada/1366_2000.jpg" alt="" width="80%" height="80%" align="center" > 
+</div>
+<div class="col-g-6 col-m-6 col-6 text" align="center">
+    <p>Mercedes-Benz Clase A</p>
+    <ul align= "left">
+        <li>Version: A 250e 8G-DCT - 5-puertas - 2020 </li><br>
+        <li>Cambio: Autimatico</li><br>
+        <li>Combustible: Hibrido-Enchufable</li><br>
+        <li>Potencia: 218 CV</li><br>
+        <li>Año: 2020</li><br>
+        <li>Precio: 35.705 €</li>
+    </ul>
+    <input type="submit" value="¡Comprelo ya!">
+</div>
+
+</body>
+<style>
+
+    body{
+        background-color: #C4C4C4;
+        background-repeat: no-repeat;
+        Background-size: 100%;
+        Background-attachment: fixed;
+    }
+
+    /*celulares*/
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}  
+
+    /*tablet*/
+    @media only screen and (min-width:668px){
+    .col-m-1{width: 8.33%;}
+    .col-m-2{width: 16.66%;}
+    .col-m-3{width: 25%;}
+    .col-m-4{width: 33.33%;}
+    .col-m-5{width: 41.66%;}
+    .col-m-6{width: 50%;}
+    .col-m-7{width: 58.33%;}
+    .col-m-8{width: 66.66%;}
+    .col-m-9{width: 75%;}
+    .col-m-10{width: 83.33%;}
+    .col-m-11{width: 91.66%;}
+    .col-m-12{width: 100%;}  
+  
+    }
+    /*pc*/
+    @media only screen and (min-width:768px){
+    .col-g-1{width: 8.33%;}
+    .col-g-2{width: 16.66%;}
+    .col-g-3{width: 25%;}
+    .col-g-4{width: 33.33%;}
+    .col-g-5{width: 41.66%;}
+    .col-g-6{width: 50%;}
+    .col-g-7{width: 58.33%;}
+    .col-g-8{width: 66.66%;}
+    .col-g-9{width: 75%;}
+    .col-g-10{width: 83.33%;}
+    .col-g-11{width: 91.66%;}
+    .col-g-12{width: 100%;} 
+    }
+    .imagen{
+        margin-top: 10px;
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px; 
+        width:80%;
+        float:left;
+        margin-left: 5%;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));  
+        border-color: #C4C4C4;
+    }
+    .text {
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px;
+        width:60%;
+        float: left;
+        font-weight: bold;
+        font-size: 40px;
+        font-family:Quicksand;
+        margin-top:2%;
+        margin-left: 12%;
+        color: red;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));
+        border-color: #C4C4C4;
+    }
+    
+    .text ul{
+        font-weight: bold;
+        font-size: 20px;
+        font-family:serif;
+        color: #000000; 
+    }
+    
+    .text input[type=submit]{
+        padding: 15px 15px;
+        background-color: tomato;
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+        border:none;
+        outline: none;
+        width: 30%;
+        font-size: 0.34em;
+        font-family: 'Quicksand', sans-serif;
+        border-radius: 25px;
+        margin-left: 70%;
+    }
+
+    .text input:hover[type=submit]:hover{
+        color:white;
+      background-color:rgb(247, 45, 9) ;
+      border-radius: 25px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="col-g-6 col-m-6 col-6 imagen" align="center">
+    <img src= "https://www.carscoops.com/wp-content/uploads/2019/12/2020-Opel-Insignia-8.jpg" alt="" width="80%" height="80%" align="center" > 
+</div>
+<div class="col-g-6 col-m-6 col-6 text" align="center">
+    <p>Opel Insignia</p>
+    <ul align= "left">
+        <li>Version: Insignia 2.0 T SHT S&S GS-Line AT9 170 - 5-puertas - 2020 </li><br>
+        <li>Cambio: Autimatico</li><br>
+        <li>Combustible: Gasolina</li><br>
+        <li>Potencia: 170 CV</li><br>
+        <li>Año: 2020</li><br>
+        <li>Precio: 39.527 €</li>
+    </ul>
+    <input type="submit" value="¡Comprelo ya!">
+</div>
+</body>
+
+<style>
+
+    body{
+        background-color: #C4C4C4;
+        background-repeat: no-repeat;
+        Background-size: 100%;
+        Background-attachment: fixed;
+    }
+
+    /*celulares*/
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}  
+
+    /*tablet*/
+    @media only screen and (min-width:668px){
+    .col-m-1{width: 8.33%;}
+    .col-m-2{width: 16.66%;}
+    .col-m-3{width: 25%;}
+    .col-m-4{width: 33.33%;}
+    .col-m-5{width: 41.66%;}
+    .col-m-6{width: 50%;}
+    .col-m-7{width: 58.33%;}
+    .col-m-8{width: 66.66%;}
+    .col-m-9{width: 75%;}
+    .col-m-10{width: 83.33%;}
+    .col-m-11{width: 91.66%;}
+    .col-m-12{width: 100%;}  
+  
+    }
+    /*pc*/
+    @media only screen and (min-width:768px){
+    .col-g-1{width: 8.33%;}
+    .col-g-2{width: 16.66%;}
+    .col-g-3{width: 25%;}
+    .col-g-4{width: 33.33%;}
+    .col-g-5{width: 41.66%;}
+    .col-g-6{width: 50%;}
+    .col-g-7{width: 58.33%;}
+    .col-g-8{width: 66.66%;}
+    .col-g-9{width: 75%;}
+    .col-g-10{width: 83.33%;}
+    .col-g-11{width: 91.66%;}
+    .col-g-12{width: 100%;} 
+    }
+    .imagen{
+        margin-top: 10px;
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px; 
+        width:80%;
+        float:left;
+        margin-left: 5%;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));  
+        border-color: #C4C4C4;
+    }
+    .text {
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px;
+        width:60%;
+        float: left;
+        font-weight: bold;
+        font-size: 40px;
+        font-family:Quicksand;
+        margin-top:2%;
+        margin-left: 12%;
+        color: red;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));
+        border-color: #C4C4C4;
+    }
+    
+    .text ul{
+        font-weight: bold;
+        font-size: 20px;
+        font-family:serif;
+        color: #000000; 
+    }
+    
+    .text input[type=submit]{
+        padding: 15px 15px;
+        background-color: tomato;
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+        border:none;
+        outline: none;
+        width: 30%;
+        font-size: 0.34em;
+        font-family: 'Quicksand', sans-serif;
+        border-radius: 25px;
+        margin-left: 70%;
+    }
+
+    .text input:hover[type=submit]:hover{
+        color:white;
+      background-color:rgb(247, 45, 9) ;
+      border-radius: 25px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="col-g-6 col-m-6 col-6 imagen" align="center">
+    <img src= "https://i.blogs.es/deb432/mercedes-benz-a200-prueba-motorpasion-1portada/1366_2000.jpg" alt="" width="80%" height="80%" align="center" > 
+</div>
+<div class="col-g-6 col-m-6 col-6 text" align="center">
+    <p>Mercedes-Benz Clase A</p>
+    <ul align= "left">
+        <li>Version: A 250e 8G-DCT - 5-puertas - 2020 </li><br>
+        <li>Cambio: Autimatico</li><br>
+        <li>Combustible: Hibrido-Enchufable</li><br>
+        <li>Potencia: 218 CV</li><br>
+        <li>Año: 2020</li><br>
+        <li>Precio: 35.705 €</li>
+    </ul>
+    <input type="submit" value="¡Comprelo ya!">
+</div>
+
+</body>
+<style>
+
+    body{
+        background-color: #C4C4C4;
+        background-repeat: no-repeat;
+        Background-size: 100%;
+        Background-attachment: fixed;
+    }
+
+    /*celulares*/
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}  
+
+    /*tablet*/
+    @media only screen and (min-width:668px){
+    .col-m-1{width: 8.33%;}
+    .col-m-2{width: 16.66%;}
+    .col-m-3{width: 25%;}
+    .col-m-4{width: 33.33%;}
+    .col-m-5{width: 41.66%;}
+    .col-m-6{width: 50%;}
+    .col-m-7{width: 58.33%;}
+    .col-m-8{width: 66.66%;}
+    .col-m-9{width: 75%;}
+    .col-m-10{width: 83.33%;}
+    .col-m-11{width: 91.66%;}
+    .col-m-12{width: 100%;}  
+  
+    }
+    /*pc*/
+    @media only screen and (min-width:768px){
+    .col-g-1{width: 8.33%;}
+    .col-g-2{width: 16.66%;}
+    .col-g-3{width: 25%;}
+    .col-g-4{width: 33.33%;}
+    .col-g-5{width: 41.66%;}
+    .col-g-6{width: 50%;}
+    .col-g-7{width: 58.33%;}
+    .col-g-8{width: 66.66%;}
+    .col-g-9{width: 75%;}
+    .col-g-10{width: 83.33%;}
+    .col-g-11{width: 91.66%;}
+    .col-g-12{width: 100%;} 
+    }
+    .imagen{
+        margin-top: 10px;
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px; 
+        width:80%;
+        float:left;
+        margin-left: 5%;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));  
+        border-color: #C4C4C4;
+    }
+    .text {
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px;
+        width:60%;
+        float: left;
+        font-weight: bold;
+        font-size: 40px;
+        font-family:Quicksand;
+        margin-top:2%;
+        margin-left: 12%;
+        color: red;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));
+        border-color: #C4C4C4;
+    }
+    
+    .text ul{
+        font-weight: bold;
+        font-size: 20px;
+        font-family:serif;
+        color: #000000; 
+    }
+    
+    .text input[type=submit]{
+        padding: 15px 15px;
+        background-color: tomato;
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+        border:none;
+        outline: none;
+        width: 30%;
+        font-size: 0.34em;
+        font-family: 'Quicksand', sans-serif;
+        border-radius: 25px;
+        margin-left: 70%;
+    }
+
+    .text input:hover[type=submit]:hover{
+        color:white;
+      background-color:rgb(247, 45, 9) ;
+      border-radius: 25px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="col-g-6 col-m-6 col-6 imagen" align="center">
+    <img src= "https://i.blogs.es/4bef08/renault-captur-2021_/1366_2000.jpg" alt="" width="80%" height="80%" align="center" > 
+</div>
+<div class="col-g-6 col-m-6 col-6 text" align="center">
+    <p>Renault Capture</p>
+    <ul align= "left">
+        <li>Version: Captur TCe RS Line 74kW GLP - 5-puertas - 2021 </li><br>
+        <li>Cambio: Manual</li><br>
+        <li>Combustible: Gas</li><br>
+        <li>Potencia: 100 CV</li><br>
+        <li>Año: 2021</li><br>
+        <li>Precio: 23.750 €</li>
+    </ul>
+    <input type="submit" value="¡Comprelo ya!">
+</div>
+</body>
+
+<style>
+
+    body{
+        background-color: #C4C4C4;
+        background-repeat: no-repeat;
+        Background-size: 100%;
+        Background-attachment: fixed;
+    }
+
+    /*celulares*/
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}  
+
+    /*tablet*/
+    @media only screen and (min-width:668px){
+    .col-m-1{width: 8.33%;}
+    .col-m-2{width: 16.66%;}
+    .col-m-3{width: 25%;}
+    .col-m-4{width: 33.33%;}
+    .col-m-5{width: 41.66%;}
+    .col-m-6{width: 50%;}
+    .col-m-7{width: 58.33%;}
+    .col-m-8{width: 66.66%;}
+    .col-m-9{width: 75%;}
+    .col-m-10{width: 83.33%;}
+    .col-m-11{width: 91.66%;}
+    .col-m-12{width: 100%;}  
+  
+    }
+    /*pc*/
+    @media only screen and (min-width:768px){
+    .col-g-1{width: 8.33%;}
+    .col-g-2{width: 16.66%;}
+    .col-g-3{width: 25%;}
+    .col-g-4{width: 33.33%;}
+    .col-g-5{width: 41.66%;}
+    .col-g-6{width: 50%;}
+    .col-g-7{width: 58.33%;}
+    .col-g-8{width: 66.66%;}
+    .col-g-9{width: 75%;}
+    .col-g-10{width: 83.33%;}
+    .col-g-11{width: 91.66%;}
+    .col-g-12{width: 100%;} 
+    }
+    .imagen{
+        margin-top: 10px;
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px; 
+        width:80%;
+        float:left;
+        margin-left: 5%;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));  
+        border-color: #C4C4C4;
+    }
+    .text {
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px;
+        width:60%;
+        float: left;
+        font-weight: bold;
+        font-size: 40px;
+        font-family:Quicksand;
+        margin-top:2%;
+        margin-left: 12%;
+        color: red;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));
+        border-color: #C4C4C4;
+    }
+    
+    .text ul{
+        font-weight: bold;
+        font-size: 20px;
+        font-family:serif;
+        color: #000000; 
+    }
+    
+    .text input[type=submit]{
+        padding: 15px 15px;
+        background-color: tomato;
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+        border:none;
+        outline: none;
+        width: 30%;
+        font-size: 0.34em;
+        font-family: 'Quicksand', sans-serif;
+        border-radius: 25px;
+        margin-left: 70%;
+    }
+
+    .text input:hover[type=submit]:hover{
+        color:white;
+      background-color:rgb(247, 45, 9) ;
+      border-radius: 25px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="col-g-6 col-m-6 col-6 imagen" align="center">
+    <img src= "https://images1.autocasion.com/unsafe/1200x800/actualidad/wp-content/uploads/2020/01/nuevo-Seat-Leon-2020-4-generacion.jpg" alt="" width="80%" height="80%" align="center" > 
+</div>
+<div class="col-g-6 col-m-6 col-6 text" align="center">
+    <p>Seat Leon</p>
+    <ul align= "left">
+        <li>Version: León 1.5 TSI S&S Xcellence 150 - 5-puertas - 2020 </li><br>
+        <li>Cambio: Manual </li><br>
+        <li>Combustible: Gasolina</li><br>
+        <li>Potencia: 150 CV</li><br>
+        <li>Año: 2020</li><br>
+        <li>Precio: 22.503 €</li>
+    </ul>
+    <input type="submit" value="¡Comprelo ya!">
+</div>
+</body>
+
+<style>
+
+    body{
+        background-color: #C4C4C4;
+        background-repeat: no-repeat;
+        Background-size: 100%;
+        Background-attachment: fixed;
+    }
+
+    /*celulares*/
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}  
+
+    /*tablet*/
+    @media only screen and (min-width:668px){
+    .col-m-1{width: 8.33%;}
+    .col-m-2{width: 16.66%;}
+    .col-m-3{width: 25%;}
+    .col-m-4{width: 33.33%;}
+    .col-m-5{width: 41.66%;}
+    .col-m-6{width: 50%;}
+    .col-m-7{width: 58.33%;}
+    .col-m-8{width: 66.66%;}
+    .col-m-9{width: 75%;}
+    .col-m-10{width: 83.33%;}
+    .col-m-11{width: 91.66%;}
+    .col-m-12{width: 100%;}  
+  
+    }
+    /*pc*/
+    @media only screen and (min-width:768px){
+    .col-g-1{width: 8.33%;}
+    .col-g-2{width: 16.66%;}
+    .col-g-3{width: 25%;}
+    .col-g-4{width: 33.33%;}
+    .col-g-5{width: 41.66%;}
+    .col-g-6{width: 50%;}
+    .col-g-7{width: 58.33%;}
+    .col-g-8{width: 66.66%;}
+    .col-g-9{width: 75%;}
+    .col-g-10{width: 83.33%;}
+    .col-g-11{width: 91.66%;}
+    .col-g-12{width: 100%;} 
+    }
+    .imagen{
+        margin-top: 10px;
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px; 
+        width:80%;
+        float:left;
+        margin-left: 5%;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));  
+        border-color: #C4C4C4;
+    }
+    .text {
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px;
+        width:60%;
+        float: left;
+        font-weight: bold;
+        font-size: 40px;
+        font-family:Quicksand;
+        margin-top:2%;
+        margin-left: 12%;
+        color: red;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));
+        border-color: #C4C4C4;
+    }
+    
+    .text ul{
+        font-weight: bold;
+        font-size: 20px;
+        font-family:serif;
+        color: #000000; 
+    }
+    
+    .text input[type=submit]{
+        padding: 15px 15px;
+        background-color: tomato;
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+        border:none;
+        outline: none;
+        width: 30%;
+        font-size: 0.34em;
+        font-family: 'Quicksand', sans-serif;
+        border-radius: 25px;
+        margin-left: 70%;
+    }
+
+    .text input:hover[type=submit]:hover{
+        color:white;
+      background-color:rgb(247, 45, 9) ;
+      border-radius: 25px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="col-g-6 col-m-6 col-6 imagen" align="center">
+    <img src= "https://autosdeprimera.com/v2/wp-content/uploads/2021/01/toyota-rav4-hybrid-limited-awd-frente.jpg" alt="" width="80%" height="80%" align="center" > 
+</div>
+<div class="col-g-6 col-m-6 col-6 text" align="center">
+    <p>Toyota Rav-4</p>
+    <ul align= "left">
+        <li>Version: RAV-4 2.5 Plug-in hybrid 4WD Advance - 5-puertas - 2021 </li><br>
+        <li>Cambio: Automatico </li><br>
+        <li>Combustible: Hibrido-enchufable</li><br>
+        <li>Potencia: 306 CV</li><br>
+        <li>Año: 2021</li><br>
+        <li>Precio: 48.451 €</li>
+    </ul>
+    <input type="submit" value="¡Comprelo ya!">
+</div>
+</body>
+
+<style>
+
+    body{
+        background-color: #C4C4C4;
+        background-repeat: no-repeat;
+        Background-size: 100%;
+        Background-attachment: fixed;
+    }
+
+    /*celulares*/
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}  
+
+    /*tablet*/
+    @media only screen and (min-width:668px){
+    .col-m-1{width: 8.33%;}
+    .col-m-2{width: 16.66%;}
+    .col-m-3{width: 25%;}
+    .col-m-4{width: 33.33%;}
+    .col-m-5{width: 41.66%;}
+    .col-m-6{width: 50%;}
+    .col-m-7{width: 58.33%;}
+    .col-m-8{width: 66.66%;}
+    .col-m-9{width: 75%;}
+    .col-m-10{width: 83.33%;}
+    .col-m-11{width: 91.66%;}
+    .col-m-12{width: 100%;}  
+  
+    }
+    /*pc*/
+    @media only screen and (min-width:768px){
+    .col-g-1{width: 8.33%;}
+    .col-g-2{width: 16.66%;}
+    .col-g-3{width: 25%;}
+    .col-g-4{width: 33.33%;}
+    .col-g-5{width: 41.66%;}
+    .col-g-6{width: 50%;}
+    .col-g-7{width: 58.33%;}
+    .col-g-8{width: 66.66%;}
+    .col-g-9{width: 75%;}
+    .col-g-10{width: 83.33%;}
+    .col-g-11{width: 91.66%;}
+    .col-g-12{width: 100%;} 
+    }
+    .imagen{
+        margin-top: 10px;
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px; 
+        width:80%;
+        float:left;
+        margin-left: 5%;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));  
+        border-color: #C4C4C4;
+    }
+    .text {
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px;
+        width:60%;
+        float: left;
+        font-weight: bold;
+        font-size: 40px;
+        font-family:Quicksand;
+        margin-top:2%;
+        margin-left: 12%;
+        color: red;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));
+        border-color: #C4C4C4;
+    }
+    
+    .text ul{
+        font-weight: bold;
+        font-size: 20px;
+        font-family:serif;
+        color: #000000; 
+    }
+    
+    .text input[type=submit]{
+        padding: 15px 15px;
+        background-color: tomato;
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+        border:none;
+        outline: none;
+        width: 30%;
+        font-size: 0.34em;
+        font-family: 'Quicksand', sans-serif;
+        border-radius: 25px;
+        margin-left: 70%;
+    }
+
+    .text input:hover[type=submit]:hover{
+        color:white;
+      background-color:rgb(247, 45, 9) ;
+      border-radius: 25px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="col-g-6 col-m-6 col-6 imagen" align="center">
+    <img src= "https://img.motoryracing.com/noticias/portada/33000/33506-n.jpg" alt="" width="80%" height="80%" align="center" > 
+</div>
+<div class="col-g-6 col-m-6 col-6 text" align="center">
+    <p>Volkswagen Golf</p>
+    <ul align= "left">
+        <li>Version: Golf 1.0 TSI 81kW - 5-puertas - 2021 </li><br>
+        <li>Cambio: Manual</li><br>
+        <li>Combustible: Gasolina</li><br>
+        <li>Potencia: 110 CV</li><br>
+        <li>Año: 2021</li><br>
+        <li>Precio: 22.953 €</li>
+    </ul>
+    <input type="submit" value="¡Comprelo ya!">
+</div>
+</body>
+
+
+<style>
+
+    body{
+        background-color: #C4C4C4;
+        background-repeat: no-repeat;
+        Background-size: 100%;
+        Background-attachment: fixed;
+    }
+
+    /*celulares*/
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}  
+
+    /*tablet*/
+    @media only screen and (min-width:668px){
+    .col-m-1{width: 8.33%;}
+    .col-m-2{width: 16.66%;}
+    .col-m-3{width: 25%;}
+    .col-m-4{width: 33.33%;}
+    .col-m-5{width: 41.66%;}
+    .col-m-6{width: 50%;}
+    .col-m-7{width: 58.33%;}
+    .col-m-8{width: 66.66%;}
+    .col-m-9{width: 75%;}
+    .col-m-10{width: 83.33%;}
+    .col-m-11{width: 91.66%;}
+    .col-m-12{width: 100%;}  
+  
+    }
+    /*pc*/
+    @media only screen and (min-width:768px){
+    .col-g-1{width: 8.33%;}
+    .col-g-2{width: 16.66%;}
+    .col-g-3{width: 25%;}
+    .col-g-4{width: 33.33%;}
+    .col-g-5{width: 41.66%;}
+    .col-g-6{width: 50%;}
+    .col-g-7{width: 58.33%;}
+    .col-g-8{width: 66.66%;}
+    .col-g-9{width: 75%;}
+    .col-g-10{width: 83.33%;}
+    .col-g-11{width: 91.66%;}
+    .col-g-12{width: 100%;} 
+    }
+    .imagen{
+        margin-top: 10px;
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px; 
+        width:80%;
+        float:left;
+        margin-left: 5%;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));  
+        border-color: #C4C4C4;
+    }
+    .text {
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px;
+        width:60%;
+        float: left;
+        font-weight: bold;
+        font-size: 40px;
+        font-family:Quicksand;
+        margin-top:2%;
+        margin-left: 12%;
+        color: red;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));
+        border-color: #C4C4C4;
+    }
+    
+    .text ul{
+        font-weight: bold;
+        font-size: 20px;
+        font-family:serif;
+        color: #000000; 
+    }
+    
+    .text input[type=submit]{
+        padding: 15px 15px;
+        background-color: tomato;
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+        border:none;
+        outline: none;
+        width: 30%;
+        font-size: 0.34em;
+        font-family: 'Quicksand', sans-serif;
+        border-radius: 25px;
+        margin-left: 70%;
+    }
+
+    .text input:hover[type=submit]:hover{
+        color:white;
+      background-color:rgb(247, 45, 9) ;
+      border-radius: 25px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="col-g-6 col-m-6 col-6 imagen" align="center">
+    <img src= "https://www.motortrend.com/uploads/sites/5/2020/04/2020-Volvo-S90-01.jpg" alt="" width="80%" height="80%" align="center" > 
+</div>
+<div class="col-g-6 col-m-6 col-6 text" align="center">
+    <p>Volvo S90</p>
+    <ul align= "left">
+        <li>Version: S90 B5 Momentum Pro Aut. - 4-puertas - 2020 </li><br>
+        <li>Cambio: Automatico</li><br>
+        <li>Combustible: Diesel</li><br>
+        <li>Potencia: 253 CV</li><br>
+        <li>Año: 2020</li><br>
+        <li>Precio: 58.420 €</li>
+    </ul>
+    <input type="submit" value="¡Comprelo ya!">
+</div>
+</body>
+
+<style>
+
+    body{
+        background-color: #C4C4C4;
+        background-repeat: no-repeat;
+        Background-size: 100%;
+        Background-attachment: fixed;
+    }
+
+    /*celulares*/
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}  
+
+    /*tablet*/
+    @media only screen and (min-width:668px){
+    .col-m-1{width: 8.33%;}
+    .col-m-2{width: 16.66%;}
+    .col-m-3{width: 25%;}
+    .col-m-4{width: 33.33%;}
+    .col-m-5{width: 41.66%;}
+    .col-m-6{width: 50%;}
+    .col-m-7{width: 58.33%;}
+    .col-m-8{width: 66.66%;}
+    .col-m-9{width: 75%;}
+    .col-m-10{width: 83.33%;}
+    .col-m-11{width: 91.66%;}
+    .col-m-12{width: 100%;}  
+  
+    }
+    /*pc*/
+    @media only screen and (min-width:768px){
+    .col-g-1{width: 8.33%;}
+    .col-g-2{width: 16.66%;}
+    .col-g-3{width: 25%;}
+    .col-g-4{width: 33.33%;}
+    .col-g-5{width: 41.66%;}
+    .col-g-6{width: 50%;}
+    .col-g-7{width: 58.33%;}
+    .col-g-8{width: 66.66%;}
+    .col-g-9{width: 75%;}
+    .col-g-10{width: 83.33%;}
+    .col-g-11{width: 91.66%;}
+    .col-g-12{width: 100%;} 
+    }
+    .imagen{
+        margin-top: 10px;
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px; 
+        width:80%;
+        float:left;
+        margin-left: 5%;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));  
+        border-color: #C4C4C4;
+    }
+    .text {
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px;
+        width:60%;
+        float: left;
+        font-weight: bold;
+        font-size: 40px;
+        font-family:Quicksand;
+        margin-top:2%;
+        margin-left: 12%;
+        color: red;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));
+        border-color: #C4C4C4;
+    }
+    
+    .text ul{
+        font-weight: bold;
+        font-size: 20px;
+        font-family:serif;
+        color: #000000; 
+    }
+    
+    .text input[type=submit]{
+        padding: 15px 15px;
+        background-color: tomato;
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+        border:none;
+        outline: none;
+        width: 30%;
+        font-size: 0.34em;
+        font-family: 'Quicksand', sans-serif;
+        border-radius: 25px;
+        margin-left: 70%;
+    }
+
+    .text input:hover[type=submit]:hover{
+        color:white;
+      background-color:rgb(247, 45, 9) ;
+      border-radius: 25px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="col-g-6 col-m-6 col-6 imagen" align="center">
+    <img src= "https://hackercar.com/wp-content/uploads/2020/11/nuevo-hyundai-i30-precios-1.jpg" alt="" width="80%" height="80%" align="center" > 
+</div>
+<div class="col-g-6 col-m-6 col-6 text" align="center">
+    <p>Hyundai !30</p>
+    <ul align= "left">
+        <li>Version: i30 1.5 DPI Klass SLX 110 - 5-puertas - 2021 </li><br>
+        <li>Cambio: Manual</li><br>
+        <li>Combustible: Gasolina</li><br>
+        <li>Potencia: 110 CV</li><br>
+        <li>Año: 2021</li><br>
+        <li>Precio: 23.170 €</li>
+    </ul>
+    <input type="submit" value="¡Comprelo ya!">
+</div>
+</body>
+
+<style>
+
+    body{
+        background-color: #C4C4C4;
+        background-repeat: no-repeat;
+        Background-size: 100%;
+        Background-attachment: fixed;
+    }
+
+    /*celulares*/
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}  
+
+    /*tablet*/
+    @media only screen and (min-width:668px){
+    .col-m-1{width: 8.33%;}
+    .col-m-2{width: 16.66%;}
+    .col-m-3{width: 25%;}
+    .col-m-4{width: 33.33%;}
+    .col-m-5{width: 41.66%;}
+    .col-m-6{width: 50%;}
+    .col-m-7{width: 58.33%;}
+    .col-m-8{width: 66.66%;}
+    .col-m-9{width: 75%;}
+    .col-m-10{width: 83.33%;}
+    .col-m-11{width: 91.66%;}
+    .col-m-12{width: 100%;}  
+  
+    }
+    /*pc*/
+    @media only screen and (min-width:768px){
+    .col-g-1{width: 8.33%;}
+    .col-g-2{width: 16.66%;}
+    .col-g-3{width: 25%;}
+    .col-g-4{width: 33.33%;}
+    .col-g-5{width: 41.66%;}
+    .col-g-6{width: 50%;}
+    .col-g-7{width: 58.33%;}
+    .col-g-8{width: 66.66%;}
+    .col-g-9{width: 75%;}
+    .col-g-10{width: 83.33%;}
+    .col-g-11{width: 91.66%;}
+    .col-g-12{width: 100%;} 
+    }
+    .imagen{
+        margin-top: 10px;
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px; 
+        width:80%;
+        float:left;
+        margin-left: 5%;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));  
+        border-color: #C4C4C4;
+    }
+    .text {
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px;
+        width:60%;
+        float: left;
+        font-weight: bold;
+        font-size: 40px;
+        font-family:Quicksand;
+        margin-top:2%;
+        margin-left: 12%;
+        color: red;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));
+        border-color: #C4C4C4;
+    }
+    
+    .text ul{
+        font-weight: bold;
+        font-size: 20px;
+        font-family:serif;
+        color: #000000; 
+    }
+    
+    .text input[type=submit]{
+        padding: 15px 15px;
+        background-color: tomato;
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+        border:none;
+        outline: none;
+        width: 30%;
+        font-size: 0.34em;
+        font-family: 'Quicksand', sans-serif;
+        border-radius: 25px;
+        margin-left: 70%;
+    }
+
+    .text input:hover[type=submit]:hover{
+        color:white;
+      background-color:rgb(247, 45, 9) ;
+      border-radius: 25px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="col-g-6 col-m-6 col-6 imagen" align="center">
+    <img src= "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/peugeot-308-2021-1616163362.jpg?crop=0.960xw:0.853xh;0,0.147xh&resize=1200:*" alt="" width="80%" height="80%" align="center" > 
+</div>
+<div class="col-g-6 col-m-6 col-6 text" align="center">
+    <p>Peugeot 308</p>
+    <ul align= "left">
+        <li>Version: 308 1.2 PureTech S&S Style 110 - 5-puertas - 2021 </li><br>
+        <li>Cambio: Manual</li><br>
+        <li>Combustible: Gasolina</li><br>
+        <li>Potencia: 110 CV</li><br>
+        <li>Año: 2021</li><br>
+        <li>Precio: 23.874 €</li>
+    </ul>
+    <input type="submit" value="¡Comprelo ya!">
+</div>
+</body>
+
+<style>
+
+    body{
+        background-color: #C4C4C4;
+        background-repeat: no-repeat;
+        Background-size: 100%;
+        Background-attachment: fixed;
+    }
+
+    /*celulares*/
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}  
+
+    /*tablet*/
+    @media only screen and (min-width:668px){
+    .col-m-1{width: 8.33%;}
+    .col-m-2{width: 16.66%;}
+    .col-m-3{width: 25%;}
+    .col-m-4{width: 33.33%;}
+    .col-m-5{width: 41.66%;}
+    .col-m-6{width: 50%;}
+    .col-m-7{width: 58.33%;}
+    .col-m-8{width: 66.66%;}
+    .col-m-9{width: 75%;}
+    .col-m-10{width: 83.33%;}
+    .col-m-11{width: 91.66%;}
+    .col-m-12{width: 100%;}  
+  
+    }
+    /*pc*/
+    @media only screen and (min-width:768px){
+    .col-g-1{width: 8.33%;}
+    .col-g-2{width: 16.66%;}
+    .col-g-3{width: 25%;}
+    .col-g-4{width: 33.33%;}
+    .col-g-5{width: 41.66%;}
+    .col-g-6{width: 50%;}
+    .col-g-7{width: 58.33%;}
+    .col-g-8{width: 66.66%;}
+    .col-g-9{width: 75%;}
+    .col-g-10{width: 83.33%;}
+    .col-g-11{width: 91.66%;}
+    .col-g-12{width: 100%;} 
+    }
+    .imagen{
+        margin-top: 10px;
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px; 
+        width:80%;
+        float:left;
+        margin-left: 5%;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));  
+        border-color: #C4C4C4;
+    }
+    .text {
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px;
+        width:60%;
+        float: left;
+        font-weight: bold;
+        font-size: 40px;
+        font-family:Quicksand;
+        margin-top:2%;
+        margin-left: 12%;
+        color: red;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));
+        border-color: #C4C4C4;
+    }
+    
+    .text ul{
+        font-weight: bold;
+        font-size: 20px;
+        font-family:serif;
+        color: #000000; 
+    }
+    
+    .text input[type=submit]{
+        padding: 15px 15px;
+        background-color: tomato;
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+        border:none;
+        outline: none;
+        width: 30%;
+        font-size: 0.34em;
+        font-family: 'Quicksand', sans-serif;
+        border-radius: 25px;
+        margin-left: 70%;
+    }
+
+    .text input:hover[type=submit]:hover{
+        color:white;
+      background-color:rgb(247, 45, 9) ;
+      border-radius: 25px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="col-g-6 col-m-6 col-6 imagen" align="center">
+    <img src= "https://images1.autocasion.com/unsafe/1200x900/actualidad/wp-content/uploads/2021/01/Prueba-Ford-Focus-SW-MH-ecoboost-2021-Ruben-Fidalgo-1.jpg" alt="" width="80%" height="80%" align="center" > 
+</div>
+<div class="col-g-6 col-m-6 col-6 text" align="center">
+    <p>Ford Focus</p>
+    <ul align= "left">
+        <li>Version: Focus 1.0 Ecoboost Trend 100 - 5-puertas - 2021 </li><br>
+        <li>Cambio: Manual</li><br>
+        <li>Combustible: Gasolina</li><br>
+        <li>Potencia: 100 CV</li><br>
+        <li>Año: 2021</li><br>
+        <li>Precio: 21.889 €</li>
+    </ul>
+    <input type="submit" value="¡Comprelo ya!">
+</div>
+</body>
+
+<style>
+
+    body{
+        background-color: #C4C4C4;
+        background-repeat: no-repeat;
+        Background-size: 100%;
+        Background-attachment: fixed;
+    }
+
+    /*celulares*/
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}  
+
+    /*tablet*/
+    @media only screen and (min-width:668px){
+    .col-m-1{width: 8.33%;}
+    .col-m-2{width: 16.66%;}
+    .col-m-3{width: 25%;}
+    .col-m-4{width: 33.33%;}
+    .col-m-5{width: 41.66%;}
+    .col-m-6{width: 50%;}
+    .col-m-7{width: 58.33%;}
+    .col-m-8{width: 66.66%;}
+    .col-m-9{width: 75%;}
+    .col-m-10{width: 83.33%;}
+    .col-m-11{width: 91.66%;}
+    .col-m-12{width: 100%;}  
+  
+    }
+    /*pc*/
+    @media only screen and (min-width:768px){
+    .col-g-1{width: 8.33%;}
+    .col-g-2{width: 16.66%;}
+    .col-g-3{width: 25%;}
+    .col-g-4{width: 33.33%;}
+    .col-g-5{width: 41.66%;}
+    .col-g-6{width: 50%;}
+    .col-g-7{width: 58.33%;}
+    .col-g-8{width: 66.66%;}
+    .col-g-9{width: 75%;}
+    .col-g-10{width: 83.33%;}
+    .col-g-11{width: 91.66%;}
+    .col-g-12{width: 100%;} 
+    }
+    .imagen{
+        margin-top: 10px;
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px; 
+        width:80%;
+        float:left;
+        margin-left: 5%;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));  
+        border-color: #C4C4C4;
+    }
+    .text {
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px;
+        width:60%;
+        float: left;
+        font-weight: bold;
+        font-size: 40px;
+        font-family:Quicksand;
+        margin-top:2%;
+        margin-left: 12%;
+        color: red;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));
+        border-color: #C4C4C4;
+    }
+    
+    .text ul{
+        font-weight: bold;
+        font-size: 20px;
+        font-family:serif;
+        color: #000000; 
+    }
+    
+    .text input[type=submit]{
+        padding: 15px 15px;
+        background-color: tomato;
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+        border:none;
+        outline: none;
+        width: 30%;
+        font-size: 0.34em;
+        font-family: 'Quicksand', sans-serif;
+        border-radius: 25px;
+        margin-left: 70%;
+    }
+
+    .text input:hover[type=submit]:hover{
+        color:white;
+      background-color:rgb(247, 45, 9) ;
+      border-radius: 25px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="col-g-6 col-m-6 col-6 imagen" align="center">
+    <img src= "data:image/jpeg;base64,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" alt="" width="80%" height="80%" align="center" > 
+</div>
+<div class="col-g-6 col-m-6 col-6 text" align="center">
+    <p>Ferrari 812</p>
+    <ul align= "left">
+        <li>Version: 812 Superfast - 2-puertas - 2018 </li><br>
+        <li>Cambio: Automatico</li><br>
+        <li>Combustible: Gasolina</li><br>
+        <li>Potencia: 799 CV</li><br>
+        <li>Año: 2018</li><br>
+        <li>Precio: 339.420 €</li>
+    </ul>
+    <input type="submit" value="¡Comprelo ya!">
+</div>
+</body>
+
+<style>
+
+    body{
+        background-color: #C4C4C4;
+        background-repeat: no-repeat;
+        Background-size: 100%;
+        Background-attachment: fixed;
+    }
+
+    /*celulares*/
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}  
+
+    /*tablet*/
+    @media only screen and (min-width:668px){
+    .col-m-1{width: 8.33%;}
+    .col-m-2{width: 16.66%;}
+    .col-m-3{width: 25%;}
+    .col-m-4{width: 33.33%;}
+    .col-m-5{width: 41.66%;}
+    .col-m-6{width: 50%;}
+    .col-m-7{width: 58.33%;}
+    .col-m-8{width: 66.66%;}
+    .col-m-9{width: 75%;}
+    .col-m-10{width: 83.33%;}
+    .col-m-11{width: 91.66%;}
+    .col-m-12{width: 100%;}  
+  
+    }
+    /*pc*/
+    @media only screen and (min-width:768px){
+    .col-g-1{width: 8.33%;}
+    .col-g-2{width: 16.66%;}
+    .col-g-3{width: 25%;}
+    .col-g-4{width: 33.33%;}
+    .col-g-5{width: 41.66%;}
+    .col-g-6{width: 50%;}
+    .col-g-7{width: 58.33%;}
+    .col-g-8{width: 66.66%;}
+    .col-g-9{width: 75%;}
+    .col-g-10{width: 83.33%;}
+    .col-g-11{width: 91.66%;}
+    .col-g-12{width: 100%;} 
+    }
+    .imagen{
+        margin-top: 10px;
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px; 
+        width:80%;
+        float:left;
+        margin-left: 5%;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));  
+        border-color: #C4C4C4;
+    }
+    .text {
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px;
+        width:60%;
+        float: left;
+        font-weight: bold;
+        font-size: 40px;
+        font-family:Quicksand;
+        margin-top:2%;
+        margin-left: 12%;
+        color: red;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));
+        border-color: #C4C4C4;
+    }
+    
+    .text ul{
+        font-weight: bold;
+        font-size: 20px;
+        font-family:serif;
+        color: #000000; 
+    }
+    
+    .text input[type=submit]{
+        padding: 15px 15px;
+        background-color: tomato;
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+        border:none;
+        outline: none;
+        width: 30%;
+        font-size: 0.34em;
+        font-family: 'Quicksand', sans-serif;
+        border-radius: 25px;
+        margin-left: 70%;
+    }
+
+    .text input:hover[type=submit]:hover{
+        color:white;
+      background-color:rgb(247, 45, 9) ;
+      border-radius: 25px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="col-g-6 col-m-6 col-6 imagen" align="center">
+    <img src= "https://cdn.motor1.com/images/mgl/mLy8B/s1/2021-jaguar-f-type.jpg" alt="" width="80%" height="80%" align="center" > 
+</div>
+<div class="col-g-6 col-m-6 col-6 text" align="center">
+    <p>Jaguar F-Type</p>
+    <ul align= "left">
+        <li>Version: F-Type Coupé 2.0 I4R-Dynamic Black Aut. 300 - 3-puertas - 2021 </li><br>
+        <li>Cambio: Automatico</li><br>
+        <li>Combustible: Gasolina</li><br>
+        <li>Potencia: 300 CV</li><br>
+        <li>Año: 2021</li><br>
+        <li>Precio: 87.000 €</li>
+    </ul>
+    <input type="submit" value="¡Comprelo ya!">
+</div>
+</body>
+
+<style>
+
+    body{
+        background-color: #C4C4C4;
+        background-repeat: no-repeat;
+        Background-size: 100%;
+        Background-attachment: fixed;
+    }
+
+    /*celulares*/
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}  
+
+    /*tablet*/
+    @media only screen and (min-width:668px){
+    .col-m-1{width: 8.33%;}
+    .col-m-2{width: 16.66%;}
+    .col-m-3{width: 25%;}
+    .col-m-4{width: 33.33%;}
+    .col-m-5{width: 41.66%;}
+    .col-m-6{width: 50%;}
+    .col-m-7{width: 58.33%;}
+    .col-m-8{width: 66.66%;}
+    .col-m-9{width: 75%;}
+    .col-m-10{width: 83.33%;}
+    .col-m-11{width: 91.66%;}
+    .col-m-12{width: 100%;}  
+  
+    }
+    /*pc*/
+    @media only screen and (min-width:768px){
+    .col-g-1{width: 8.33%;}
+    .col-g-2{width: 16.66%;}
+    .col-g-3{width: 25%;}
+    .col-g-4{width: 33.33%;}
+    .col-g-5{width: 41.66%;}
+    .col-g-6{width: 50%;}
+    .col-g-7{width: 58.33%;}
+    .col-g-8{width: 66.66%;}
+    .col-g-9{width: 75%;}
+    .col-g-10{width: 83.33%;}
+    .col-g-11{width: 91.66%;}
+    .col-g-12{width: 100%;} 
+    }
+    .imagen{
+        margin-top: 10px;
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px; 
+        width:80%;
+        float:left;
+        margin-left: 5%;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));  
+        border-color: #C4C4C4;
+    }
+    .text {
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px;
+        width:60%;
+        float: left;
+        font-weight: bold;
+        font-size: 40px;
+        font-family:Quicksand;
+        margin-top:2%;
+        margin-left: 12%;
+        color: red;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));
+        border-color: #C4C4C4;
+    }
+    
+    .text ul{
+        font-weight: bold;
+        font-size: 20px;
+        font-family:serif;
+        color: #000000; 
+    }
+    
+    .text input[type=submit]{
+        padding: 15px 15px;
+        background-color: tomato;
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+        border:none;
+        outline: none;
+        width: 30%;
+        font-size: 0.34em;
+        font-family: 'Quicksand', sans-serif;
+        border-radius: 25px;
+        margin-left: 70%;
+    }
+
+    .text input:hover[type=submit]:hover{
+        color:white;
+      background-color:rgb(247, 45, 9) ;
+      border-radius: 25px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="col-g-6 col-m-6 col-6 imagen" align="center">
+    <img src= "https://i.ytimg.com/vi/3lOBKGyRQtw/maxresdefault.jpg" alt="" width="80%" height="80%" align="center" > 
+</div>
+<div class="col-g-6 col-m-6 col-6 text" align="center">
+    <p>Lexus Is</p>
+    <ul align= "left">
+        <li>Version: IS 300h Business Plus - 4-puertas - 2018 </li><br>
+        <li>Cambio: Automatico</li><br>
+        <li>Combustible: Hibrido</li><br>
+        <li>Potencia: 223 CV</li><br>
+        <li>Año: 2018</li><br>
+        <li>Precio: 40.600 €</li>
+    </ul>
+    <input type="submit" value="¡Comprelo ya!">
+</div>
+</body>
+
+<style>
+
+    body{
+        background-color: #C4C4C4;
+        background-repeat: no-repeat;
+        Background-size: 100%;
+        Background-attachment: fixed;
+    }
+
+    /*celulares*/
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}  
+
+    /*tablet*/
+    @media only screen and (min-width:668px){
+    .col-m-1{width: 8.33%;}
+    .col-m-2{width: 16.66%;}
+    .col-m-3{width: 25%;}
+    .col-m-4{width: 33.33%;}
+    .col-m-5{width: 41.66%;}
+    .col-m-6{width: 50%;}
+    .col-m-7{width: 58.33%;}
+    .col-m-8{width: 66.66%;}
+    .col-m-9{width: 75%;}
+    .col-m-10{width: 83.33%;}
+    .col-m-11{width: 91.66%;}
+    .col-m-12{width: 100%;}  
+  
+    }
+    /*pc*/
+    @media only screen and (min-width:768px){
+    .col-g-1{width: 8.33%;}
+    .col-g-2{width: 16.66%;}
+    .col-g-3{width: 25%;}
+    .col-g-4{width: 33.33%;}
+    .col-g-5{width: 41.66%;}
+    .col-g-6{width: 50%;}
+    .col-g-7{width: 58.33%;}
+    .col-g-8{width: 66.66%;}
+    .col-g-9{width: 75%;}
+    .col-g-10{width: 83.33%;}
+    .col-g-11{width: 91.66%;}
+    .col-g-12{width: 100%;} 
+    }
+    .imagen{
+        margin-top: 10px;
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px; 
+        width:80%;
+        float:left;
+        margin-left: 5%;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));  
+        border-color: #C4C4C4;
+    }
+    .text {
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px;
+        width:60%;
+        float: left;
+        font-weight: bold;
+        font-size: 40px;
+        font-family:Quicksand;
+        margin-top:2%;
+        margin-left: 12%;
+        color: red;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));
+        border-color: #C4C4C4;
+    }
+    
+    .text ul{
+        font-weight: bold;
+        font-size: 20px;
+        font-family:serif;
+        color: #000000; 
+    }
+    
+    .text input[type=submit]{
+        padding: 15px 15px;
+        background-color: tomato;
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+        border:none;
+        outline: none;
+        width: 30%;
+        font-size: 0.34em;
+        font-family: 'Quicksand', sans-serif;
+        border-radius: 25px;
+        margin-left: 70%;
+    }
+
+    .text input:hover[type=submit]:hover{
+        color:white;
+      background-color:rgb(247, 45, 9) ;
+      border-radius: 25px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="col-g-6 col-m-6 col-6 imagen" align="center">
+    <img src= "data:image/jpeg;base64,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" alt="" width="80%" height="80%" align="center" > 
+</div>
+<div class="col-g-6 col-m-6 col-6 text" align="center">
+    <p>Maserati Ghibli</p>
+    <ul align= "left">
+        <li>Version: Ghibli Executive Aut. 330 - 4-puertas - 2021 </li><br>
+        <li>Cambio: Automatico</li><br>
+        <li>Combustible: Hibrido</li><br>
+        <li>Potencia: 330 CV</li><br>
+        <li>Año: 2021</li><br>
+        <li>Precio: 91.500 €</li>
+    </ul>
+    <input type="submit" value="¡Comprelo ya!">
+</div>
+</body>
+
+<style>
+
+    body{
+        background-color: #C4C4C4;
+        background-repeat: no-repeat;
+        Background-size: 100%;
+        Background-attachment: fixed;
+    }
+
+    /*celulares*/
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}  
+
+    /*tablet*/
+    @media only screen and (min-width:668px){
+    .col-m-1{width: 8.33%;}
+    .col-m-2{width: 16.66%;}
+    .col-m-3{width: 25%;}
+    .col-m-4{width: 33.33%;}
+    .col-m-5{width: 41.66%;}
+    .col-m-6{width: 50%;}
+    .col-m-7{width: 58.33%;}
+    .col-m-8{width: 66.66%;}
+    .col-m-9{width: 75%;}
+    .col-m-10{width: 83.33%;}
+    .col-m-11{width: 91.66%;}
+    .col-m-12{width: 100%;}  
+  
+    }
+    /*pc*/
+    @media only screen and (min-width:768px){
+    .col-g-1{width: 8.33%;}
+    .col-g-2{width: 16.66%;}
+    .col-g-3{width: 25%;}
+    .col-g-4{width: 33.33%;}
+    .col-g-5{width: 41.66%;}
+    .col-g-6{width: 50%;}
+    .col-g-7{width: 58.33%;}
+    .col-g-8{width: 66.66%;}
+    .col-g-9{width: 75%;}
+    .col-g-10{width: 83.33%;}
+    .col-g-11{width: 91.66%;}
+    .col-g-12{width: 100%;} 
+    }
+    .imagen{
+        margin-top: 10px;
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px; 
+        width:80%;
+        float:left;
+        margin-left: 5%;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));  
+        border-color: #C4C4C4;
+    }
+    .text {
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px;
+        width:60%;
+        float: left;
+        font-weight: bold;
+        font-size: 40px;
+        font-family:Quicksand;
+        margin-top:2%;
+        margin-left: 12%;
+        color: red;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));
+        border-color: #C4C4C4;
+    }
+    
+    .text ul{
+        font-weight: bold;
+        font-size: 20px;
+        font-family:serif;
+        color: #000000; 
+    }
+    
+    .text input[type=submit]{
+        padding: 15px 15px;
+        background-color: tomato;
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+        border:none;
+        outline: none;
+        width: 30%;
+        font-size: 0.34em;
+        font-family: 'Quicksand', sans-serif;
+        border-radius: 25px;
+        margin-left: 70%;
+    }
+
+    .text input:hover[type=submit]:hover{
+        color:white;
+      background-color:rgb(247, 45, 9) ;
+      border-radius: 25px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="col-g-6 col-m-6 col-6 imagen" align="center">
+    <img src= "data:image/jpeg;base64,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" alt="" width="80%" height="80%" align="center" > 
+</div>
+<div class="col-g-6 col-m-6 col-6 text" align="center">
+    <p>Mazda Mazda2</p>
+    <ul align= "left">
+        <li>Version: Mazda2 1.5 Skyactiv-g 100 Aniversario 66kW - 5-puertas - 2020 </li><br>
+        <li>Cambio: Manual</li><br>
+        <li>Combustible: Gasolina</li><br>
+        <li>Potencia: 90 CV</li><br>
+        <li>Año: 2020</li><br>
+        <li>Precio: 24.895 €</li>
+    </ul>
+    <input type="submit" value="¡Comprelo ya!">
+</div>
+</body>
+
+<style>
+
+    body{
+        background-color: #C4C4C4;
+        background-repeat: no-repeat;
+        Background-size: 100%;
+        Background-attachment: fixed;
+    }
+
+    /*celulares*/
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}  
+
+    /*tablet*/
+    @media only screen and (min-width:668px){
+    .col-m-1{width: 8.33%;}
+    .col-m-2{width: 16.66%;}
+    .col-m-3{width: 25%;}
+    .col-m-4{width: 33.33%;}
+    .col-m-5{width: 41.66%;}
+    .col-m-6{width: 50%;}
+    .col-m-7{width: 58.33%;}
+    .col-m-8{width: 66.66%;}
+    .col-m-9{width: 75%;}
+    .col-m-10{width: 83.33%;}
+    .col-m-11{width: 91.66%;}
+    .col-m-12{width: 100%;}  
+  
+    }
+    /*pc*/
+    @media only screen and (min-width:768px){
+    .col-g-1{width: 8.33%;}
+    .col-g-2{width: 16.66%;}
+    .col-g-3{width: 25%;}
+    .col-g-4{width: 33.33%;}
+    .col-g-5{width: 41.66%;}
+    .col-g-6{width: 50%;}
+    .col-g-7{width: 58.33%;}
+    .col-g-8{width: 66.66%;}
+    .col-g-9{width: 75%;}
+    .col-g-10{width: 83.33%;}
+    .col-g-11{width: 91.66%;}
+    .col-g-12{width: 100%;} 
+    }
+    .imagen{
+        margin-top: 10px;
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px; 
+        width:80%;
+        float:left;
+        margin-left: 5%;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));  
+        border-color: #C4C4C4;
+    }
+    .text {
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px;
+        width:60%;
+        float: left;
+        font-weight: bold;
+        font-size: 40px;
+        font-family:Quicksand;
+        margin-top:2%;
+        margin-left: 12%;
+        color: red;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));
+        border-color: #C4C4C4;
+    }
+    
+    .text ul{
+        font-weight: bold;
+        font-size: 20px;
+        font-family:serif;
+        color: #000000; 
+    }
+    
+    .text input[type=submit]{
+        padding: 15px 15px;
+        background-color: tomato;
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+        border:none;
+        outline: none;
+        width: 30%;
+        font-size: 0.34em;
+        font-family: 'Quicksand', sans-serif;
+        border-radius: 25px;
+        margin-left: 70%;
+    }
+
+    .text input:hover[type=submit]:hover{
+        color:white;
+      background-color:rgb(247, 45, 9) ;
+      border-radius: 25px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="col-g-6 col-m-6 col-6 imagen" align="center">
+    <img src= "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgVFhYYGRgYHBgYGBgZGhwaGRocGBgaGhgYGhgcIS4lHB4rIRgYJjgmKy8xNTU1GiQ7QDszPy40NTEBDAwMEA8QHhISHzQrJCs0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIALcBEwMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAEAAECAwUGBwj/xABEEAACAQIDBQUFBAcHBAMBAAABAhEAAwQSIQUxQVFhBiJxgZETMlKhsRRCktEHFVNicsHhIzOCorLS8CSTwuJDg/EX/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAiEQEBAQEAAwEBAAIDAQAAAAAAARECEiExQVFhgSIycQP/2gAMAwEAAhEDEQA/ANVNRuqF2+iaMwBO6eNedpj7oXS4+7nQ1/Eu5DM7EjdrXXwZ8npt/GJbt53Og86892rinuO1xiu/Tw4VG5tC66ZGclY3VU47p8vrVnOFruOz1pvYo6neuq1tJcB0415xgtrX0AVHIA3DlRF3b2IYavHUCD51m82012eC1xLanRdAd3kKI7SX3S0xXkQfMV5/htq3kfOHMnfOtXbR2zfdMrvIM6RHCp4+zT7OxIKpqRkB9Zmt/HbXZUDI4P1HlXGYXMBod9FJZ0B/e/8AGrc1Wrb7RXGJDtIPShcQ5JLKIDaaHTTpVd4AZZHD+dRS5womtHZ9wBlkmBM6zP7vnXQbMuI4cezAVtAI1ExIHSuVRTI5ca6fYDADU67gPzrn03yMtu74Z1YCEcqI5DdRqNAWACxGs8PA0NZhEuAGQzydNOE1qHvGVAiBXO1c9qsfb7ik783D+GtrCHuLpwH0FZWKtllXkDHyrWsNCqOg+lZn1u/F6CmffVgFQbfWmYYU9ICniopU4pRTxQNSqVRoKb9sHWhpOYCKIvOJHjqKovLrIrHTfJr4M6iKgTOXlRDoSBpw0qoJu5a1i/Wp8PZSTruFSKkSautJ3T41ArodK1npN9qzzFFYZ5041XZUboqaGDu41efSde/QilUopVtzfPAHdPhVMUW6whPSs1cSNZr2OA8LVl1YQ+X1qNi4CPSo47FLlKjfp9aAF7h4VYlwxQy3KsU0UdhjJorFpAXz+lB4Fxmq6+/eImRwHLSpRdgkBArqMPhUGDZyi5g6w0a+8AdfCub2dXXWknAsD8a/6xXPr8/9a5c/jrOYqZAEH61TYQA+FFY5FUr4H60Kr8av4kaNuwp5661p4FMp09eelYyY0iAOAijtn4lteOv8q5WX9dPX420Tua8WPzNamDWIFYy4pTbUz3sx0860cLiwvItNZ8bh5e2pj7mVV04/yorCpIDE8B9Kydq3wyJzkn5VrYA9xfAfSs57a30MFQY60g1M2+tIkDTiorUpqB6VNNOKCVMTTgVG4dKUD3ROtRcDTfTKDv58KtLDd00rn9dPhE5YkVC6uvjSLGYJ0FTcjMKm6uYkj8KSrJIpJEnpU7Z1JrU9pfRwkTTImtOXBNSQiYpiatpUqVbYfM10cJnxqD6bwPKr7doMNSAdw13VFrBEgEHWP6ivY4n9rC6QdQYqN5naXymIgkAx61U6kDnRKO+Q97uiO7QUW1Eb6mK0LWx7rjOQoEAiSBod1BsjIdw0mONArN7KZ31a1wuxMRPChwQd9EYa7lYGg1tmOI66V2GEcHBXhpIDEc5GoI61zGxdsugCLaRtSSxGsTXW2cWWE/Zxrr938659c6sriLuKJ0Yk6aTrFDperp9qXyjl7ltAhGVQIn/FXJ3SMxy6jpurSC0vTpR2DundPEfSshAaLs3GUlVjn/w1LF1uYXEArlG9WPlNall2nfWBst9HJ35gflWkuIrNhvtt337q6zv9aN2fjymVd4Mbzu0rBu3jkXXifpRa3QQN05Rx6Vxs9um+na22J1MeVMza1zeDxVxAADK8B/Wo38dezkAaafSr4prqAalWDh8bdjvLR1vGNxFS+mp7aQFSAoAY3pU7WLkxEVNMHUzCdKh7Qc6iL6zE0FFwCYJ1/lV1lQR9KGx0GCNY5VLDXOANY/XTfSdxvWqkaWAnnT3rwXMIO6fGhFc5lMzoTWOvrXPxo231Ip+nE0CCTLdamjGaTpLyNaRAA1ipWm11FCF2Os1Zbzc63L7Sz0PpUL3udKtaxj5rinJ0pZadhpXtcCZdN/lUSpBilNJgaC433O9mIA5ncNwpmRokzB3TUVf5VbfxBYQeG7lQURTq2tTw1ssTAmASegFLugbjPCiD8Ajs8ISJ0EVrrhcSNzv+I/nWHZxZQgqdRWgm1nJ1MA0FN/O0l3JI3KSSaoD6aCmu3cxJHHfUJqKvS5PWnW4arQVPLNBp7Kbut4j6UeG1oDZcZW8R9KNR5aog6+DkXxP0oixYJjwH0qN9wETxP0ogX4C+A+lcq3PjQw2HgCWPrSxLkOcrfDx6CgkdjWdicS6XmHPJv/hFSc79N/jaXEXOBNTF+7MZjrVVo6A1f7TvL50vMJ1VqXLo41I4hxvO+pBqpxXvLUvLU60Ujvvmo3Lr753URZGlVkdyZ46isdctc9eyVnjNJ3UyM2+qxcGm8DcOlEoQImdelYvLpOidzoSaQYz1pEANrupM0sK52NToRZM0XboK2daMQaU5i9VfbE0RFDW2ipe01EV1lcrBFKq5pVpl83GmaplTO6oFdK9jgU02amFJgQAedAlpzHPWki+vAVYbDaLlJYnQAST0AFXBO1iSm7SdKoZ5OtbljsniXAIQqN5LwgA5kNr8q0cL2DxDasVjgVmD5sAY6wamwcpc96rrfAndursz2Eg9+8infHvN6SPpUT2fwVsjPiXkGQNLZnmCyjXwNNhlcu+GcDMUZV4SCJ8JGtUI/wDSu0vXcD984q7/AB3HuA/gdhVDYrBLr9mUgCTmZyfNWT+dP9DlVY9aszEdK6w3cON2BTzCfzamS7h5n7Iq9RlEeaEn0FMv8NjE2UpKsQCRI1jpR6OB49a1EwSOQ+GuNYvcNSUeNcrgwSf4gDxAIq672u9kfZ3kui4oGcBEyE80JfVTwNZtMA4m4Mia8T9KOs3VCrOug+lVN2usNvtufG3b/wB1SXtXh/2T/wDbt/7qxZVxp2biHVfSs7FWw114OoyaHd7gqS9p8Nxtv5W0HzVxUW2tg3JIa6jHj3vocwqz1+Gf5GYKY7wg1eR3086zrW0banS6rrzKm2w/EAreRHga0ipLIw3QdeBB3EcxRBymhMfchl8atzVmbXaCh6xTxXW5hrvd8qrTGhFGYTJIFUYMwgHSq7ZV0ysQDJj1rN5WVYt2X5gHVeNSu48E7zpWa11kdhG4b/Cq1uZmzHzrn1z6dOb7biYkNqJPWKIXVlJnjQGAxK5THOlidoQyjrXKyussbaFRTtiRwrDTFFjRSGBUwtaFm9Jqd69lK+IoXDPrRDxI8fnSQtG5xSqM0q645a8Hv2WJzAjWhr6EcImtPFOhAK6HiKFvGViZjUA769uOGgnsQAZGvCqXBiKNdBA5n+daeG2M11HdituypOa847oy78g3ueg06iizb8ZmDwrsJ3cievKus7HbFvJe9qozOsrlaQozDU3D93Q6DfrMVv8AZ7sp3VLBraAd2SPb3BGhZl0sqfhXvaiWG6uuY27FswFREBMAQABvOnj4kniTXPrr8jfjIgtgAZnIMchCg9BqSfGekVy22u1ZaUw8RuN06r1CR756+6ObarWD2n7RtiM6KSlsIwyzBbNIJYeW71ngFcuASeAk+Q5Vrn/5/tY66/iF6+z5i7s4mBnMju6E5PdHezbgOFVKQNwA8ABSiABxAE+PGozXSRi05eh3XMQPiZR5A975ZqummwaZriD+JvlH/nVoPeagQasjWrrWFdzCIWPQbvE8KMqbRYa/X/m7/wDRBg1q4nDpi7eRzluL7j7yDE5W+IGOmYCdCCATszs+xn2oZd0ZWXrM7+nrVj4bD2nAb2oIBGsd4EaGR+8FOhEEA7xpy6svz61zs+vPcThmtubbqwdd4+hB4g8DVf0Neo4rZuExSKxdyyyqvADAg95HgRMQYIjXMOIHHYmzglJVjiEZDDrC6EDUbjv0O+D4GRJW7GRbtkwAdW3aHXw06UbeRAYJYt97MQvARGmtF21wbQqPeEOGEgd0EkaHLvnJ5EnU6VDHDCNmZXvZ2UEAhcobLuOkxOh5a0ShxbB9wkdG1+Yq/AbVu2DA1SdUbVD1Uj3T1FZSORuNXLczSDp0O41cTXbYDaqXR3Ccw1NtvfHMr8Y8NelCbYxSsqweNcmUKkESI1BB1B5g1orjku6XjlfhfUb+XtUHvfxjXnNTMX66OxiCiFmMgju+lVqM9tDuMkzO7lXPYu5eSEcjKwlSDKMvxIw0YUGb78WMeNPR7dFfxZJMsMwjUcaGs34J1rIS5zq60+vhWOo1zXQ7NxMA+NSxj95DPOs3Z9zunxq7F3tU3b6xeWpW1hrumlHW7mlYWEfUsaMOKgVzvP8AG51/Wxhr+tLGYoiIPEfQ1l4bEHNNTxz7vEfQ0nBevbQ+3PzpVke3pqvjTXD4ay7roqmOf51TisK6rLJHWapweKvLITNHGBPhVmJ2lfdcrgxv1WPnXtedUlxpE7pE84nWK6ntltVCpwrIqW8iBHtuHACkfcgbiuomat/Rpspb197twSLIQop90u0wx55QsjqQeFeoYi2CIKg9CARJIA+tc+usrrxcl/yA2btS3ctW3ze+iMJBEyo4US3s21JQnrE/OpPhJESfkR6HShhgY1GX8Cj1iK5ehC9asKGdyirrJJAELpz5z61SmzMNeXMqI6nSQoPlqKuOAzIRJQtqGSVKz0JIJ8RUcLskpB9rcLRBbuifEKomr/sC3ezGHb7keHd/0xQr9jrHAEf4nP1Y1u+wujddB6Mg+opZsQPuW38GKn5zV8uv6mT+OVxHYlIlXedwBKxJ3fcn51QnYt0cOtyQAVylOZU+9nHw8uNdc+LcFc1h9/3SGE5Ty158Ky27Sf2uQogTTN/aAXFnfKMBEcqs66S88uefsteG7KfMg+gB+tRa9iMDbd/ZF0lS4BIyxIze7Ma66V32GxVtwCjqZ6ieW7fVzWhS935ScyfHneA/SFhm/vEZN24ZweeqiflS292mw1+2PZEFkDOZVlJEQACwE94jdXb3dkWmMm2hPMopPqRXDP8Ao/dMTnRx7EPnVQDnGs5OQHCeVTnx3S7mOe2VtZ7LlmnIzDMs5c6hpBBO5hqQfEbiQe9u7AwuLVLxzGUGV1bIWRt0iPEQZggitK3ssKFGUCSJgRuUnh4UYMEMuWW1jUsSYG4SZ01OlOutWRx97sbhk1S5cB6FTp0Mb+PlQz9kkMsmIU5iT37c79+quIrsW2MvM+dUvsXkF8jBpv8Akxxd3se8yly10hW58ZbfQ1zsjf8AiB/hQH5B67Z9mleDDrMj5zQ19riMMgDJGuhLg8DAOo8BPQ8LqY409nnX3ncdDbIHzeoHYLE/3gHih+k12J28UjOm/hnKN+G6qT5E1NNuYZvfR10zTkB03EyhJp5U8Y5zAbJKDI9629tjLI6XQAfiRwpyN1HzocdnWzwLtvJJglyTE6SCq6xyFdgmMwRE50TmXm3E7pLhT60basWnEo6OP3SrfMVPJccG/Zp/uvbfwbX0E0M+xcQn3JHQj6Eg16R+rU+Eegp12ag3CPDSp5Hi86w1t0U5kZdd5Uxu51TjMQO7HXWvTxguGY+Zn60Hjez9u6IdFb94DK/4xrU8oZXC4fE6UQmMHHXpS23sJ8McwlrZgB43H4WjcevH5VlK9akn4zd/W9Y2iC0Roat2ljwANOI+hrBwz94VftW73fMfzqWeyUX+tP3aVYf2k86ar4rrLwG0XtTlO/fpwo59vuwhgpHVf6Vz5amzmuzGPVP0dYvMl4gAQybvAmu4xOI1yjdxPEHeI8wK4T9G2zLyWXvusI5QpJ7zASMwHwyRHOtbtVtkYa1oRnecp+ED3njzAHU1x6m9Nz1GxitrJa9+4i+Oh8hmk1Qm37DjIl1CxEAZgCfIxXiWM2y7sWBOu9iZY9SaptbRfj3x4Vvwh5V7/axRETqPnRouiJ4V5L2R7UFCtq4xKGFBbfbJ0GvwfTfumvRrTwcraA/I86x1ziyj2xaim+3LyNZ91CunpVYYnlU8Ya02xqyuh4nhyI/nTvctMQzKCRoCVBI86yWmV3bz9DVgY8x6Uw1pOLLb1Q+K/wBKZcPaHunL/C5HymKz8x5/Kmk8/lTDWp7QrvIYfEInzA+oqttooCRJkdCN5A3kRx50BJ5/KnznpTF1oXMUvdPU6cfdaqHxRPShHfVdOJPyI/nXGds+0hQmyjRGjsN5J+4p+pqznUtdVi+09m0crXFLDeFBcjxyjSq7HbTDMYL5f4lZR6wRXjFzHOd3dHTX61K3imj7xPhp8q34RPKvoTDYtHAZWBB3EEEHwI0NK7hkbUiDzGhrxPYPaF7LypI+JD7rfk3Ua+Ir1vZ21kvWluIZDDzBGhB5EHSsdc4surHsFdCMy+H1FZmJ2fg2PfW0rHiGVG+RFaOIvEI539xtNddDppXn+0s74j2q3lhWVjbRyzlEUB1KLI1AMyKkiukfs8h/usQR0ci4I5A71HrFZe0uzl4g57Iuj47bDMsbmGaGLeArA2RbsXnhcMgykHOl1pDE9wBVUQSfADoK9Mw2FRFVYUkDVo3nifWlt5T68nuvibLsqvfyrvBZ0ZRv7yZtNOO6nTbt79u//cuf7q0ts7aL4m5dQ9xAFXUw2Q5UmN4LNu5TWKu0XVQFKKo3BbaZR0kgz5ma6fUFvt+/H98/PS4/++tXam0MTaMreuFNCD7RiQGEgN3tOU7jWIm2boKy4iR/8aCR07uvkTRNza7wTn4cFUbwd/dEcN8VMXVn6+ut3XuM6HerXDB6GTFV3u7BBlWkqeYBI9fzoZNsX/2h13d1ddJ07uvkGrT2xfNyzh7pMmLltjAHeRwZIXQGHHXTWnxm/Adi73hRmMxSjVtx00/50rFR9avxz91fEfQ1c9soFxwOnCmofP0pVTQ1rDZ9FFXpgSJJHCjkwCqZRnH/ADwqZtkyC7QQZ3VvEtel9kxODsQfuKOhKyv8q87/AEkY/PiWQHRAqn/CJI9WNd72DuqcKEBk22dTO+GOcf6j6VwPbjZoTHe9mVwbxB3jUllPMSPQ1yn/AGrp+MfZezmZlRLZuXn1VIkKOBYGBO73tBI41o3MJcLPbmzda2DntoVZlC+9BCgNl45C0RUNkY7LiLKqhZ3cG4wJzMLi9xANwVVIcnfJO6KEwOzAHuG4xRLBKMwkF/eUosEElhGg3huEzW9TAl9MhDD3DpB1Kz90niORr1bsrtL22GRmMsko56pEE9SpU+dcDt32VzLcsyEuoc6NBZLyAFwSABrKtI0750G6t/8ARsXKXTlOQlCpOgLgOHAPHTJPlU69xY9Aw+KWMr7uB5dDRQwiNqrjyINZBtk/d+Y/nVbYY/AfVfzrni61buzjKwRv/wDFqZtnv0PnWM6usEZxqNzc9OB61aMVeH3385P1mmX+mj2wjj7pqtrbDeDQy7Tvjix8U/Jamu2ro3hD4qw/nTKbFhBpTUTtr4kQ/wCKPrURtFG+5Hg4P8qZT0q2jihbR7h+4jsPEZY+cV4pjbzO5mSSfMsx18yTXqXbPEf9M8aSba/ieT/ory7AmC7n7o0/iadfIT8q6cpRmHwwUhQme4fNV6AbtPiNaOP2PibZAuWVBIzBA1tnyjeciMXjwFAXcYbTizCjK6G4xUZ2dTDjORKqssoA5TvJqrbKs2JuZczO1xmUiS2veUg79ARrwAq6mKryaZlOn05a8RXZfo+2nDtaJ0cFgP30He9VH+QVlbawF7J9quIql3yOF93My5t3MgNJ3HQgmZrO7O4g28TbPK4g8nORvkTUvuHyvXsW59ncyqWOR4Ub2OUwAJG/xFcLs3sxc9oHRHtke77f2ZUAyDAUlyQDzHjXoS21IIJIkEd3SJ0maybWzsSpJGJRhwD22gfgda57jWLcFs1LJDswZyIzkAcNQiDd5SetAbV24XBtWAzFpVnSCVGoOUnuz6kchRn6hLtmv3M4+BVCJ5qNW8WJNaYS1ZQmERVGrGAAOpNTYrjU7CXLiIEcJqXcPqSdy95QBABbcD73Skn6N8SGn2tkndrmPzyT86Kxv6QraMVso1yPvnurI5AwWHXTzrP/AP6m/C0k8Pe/3Vf+SZAKdj3IY+2SJYFoVQYbKTBYSJnVhRLdgrw7udZXSO5ImOTyN49apwnbeyECuj5iqB2VyFBnM5CZSCZJgmYjxo5u3WGJzkPnJVi/ElAcsykaTVvl+EkD4bsXcPdFxDngSQpG6NSrEneN87/Gjtrdlb2GwbZ3R1Rw5ALSAVCGJH8OmgAGlAL29RNbdtiUnLnIIjNMQFUjUzE8uVF3e2T4tL2Ge2qSgaVDA/3iDix3hj6VP+Wl8cczYvoEIyjMWEc441XtHEjKIUDUfQ0dZ2SmYat6irto7KTKIzTI49DXWuTm/tJpVrfqZeTev9KVUFs5qq83dNCttJOTeg/OqXxykRDeg/OtbEytTZW1r2Hctb46Opgq0bgddIk6jnUe1e0hiWS+EKOEKOpII1cZWUjeNWGscN9Zox6CdG3zuH51G7i1ZCoBkjSY3gyOPOs5N1qWthsJZLKxv4ZVa3bGR3yOoFpbbQygmCAfU1HHYQXJDXFIdsqOrM1sXGRCmQEazkaWAHvxJ3UBb2ccT7MKswgRyokpkdmV2EyQUYp0KjmKL7Wf2l9MMmUNbUAJJAzP7yAAakKEUdJrPttl27BSzlfRxebMpmRlQCZ3GZ4cIPEV3PYXtGiYJELIvsy4YMQDqxcMAd8hh5zXI9qsYpdUQ5iiKrv8dzIFd/Mgnrv41z9tFLKG3cSN4HGOtXNns17jh+0ocT7TCryDXlLR1yyAegJq/wDXY+PCn/7v/WvCWwlvg580/wDaoHCp8f8Ak/rWPCL5Pd32t7uuF0YSFvAkzoB7m6SD5Vb+sQfuWD4XU/KvAThk+MfhNJ8OoEhp6ZYp4nk9++3D9kh8Lif7hTfbF/YHyuW/99eALhiRmAmPeAEkdSOXWorhyRmC90fe4eAPE9KeJr6C+1J+xceDofo9M1+395HXxEj1Eivn+2hO78qsYOv3j5MaeJr2namEsYhLlslhOTKQBIKjMrDnq0R415Ds0QQpG64uYHjlZZBHrQovONzt+JvzqzDXWDSTJkGSZM8yfStczEro7lhL1y4yOji87O9m53XDMSSUaZ0JOrBKsuJdBu5Blun3gAC65LSQA+okkMYngpBE0Db2d7a/nKmGuG4uUe/7QghF5FXBU1Z2h2p7O6lu2R/YnOxHum4YMR8AAAjiCZEzQLZti4cJfum4rJcKhkkl86srh2J3GCRzIfwqHZbZy3sTDvkCBX0ElsrLoOW/fRW1AbKXMoi3iQlxFYHMM8OYkwNQJ01KngorBthhDqxVhqCDBHDeOk0/B7YmLsD3iOmnGrBj7HNK8PfaN877reon1iqjibh33H/G1Y8V17XtPbeHs23utlIUaAb2P3VWeJOleSbb2++JfM5hRqqDRF8Bx8Trv8Kz1ud4FmZwODOdx0IBjTxq6/jznZ17mYyAh0Xkon61qc4W62uzmxGugtcc2bJ3N3s7nhkRTqv7x05TW2ezGEAJOLvAcSbZEefCuHfaVzjcu/8Acb86icY51zv077fWaWW/pLHWbK7Ph3c3rj27asVQhXL3AGMPkjuKRB111rSudnMIEKjE4jUgjuNJZVYAAASfeMgdK4P9Y3nZVzudwHeaJPnrWk+Fyrne5ckDcr75MAa+vgDWbL/V9N/Y3ZdHtziXuI7fcTMxUDiznSTyHD5PtPZuGw03LN5nLoUyPvkXLTAjjEB/Tfz5m3jgoAGfSdS2pmJza6+6Om/mai+KU6wZ56fOrObu2s3qZkjaw2Mkir9oYnQQeIrm0xJBmPnRZ2hmEESR1A86054L+1vzHypUJ7c8v8wpUXKwPaNzPrS9o3M+tQpxRtLO3M04duZph41NTRBeztpvaYOpYEGQVJUg9GHPiNx41o3e09woyAxmJJMLMkQx7qjeNDzrFB61KetaFb3Z1NMrjjNXT404FBUHTrUg6dfnVgIqav0FZFQe3+9Uxctcm+f51YGHIegqUjkvoKAO5cUGULDx0I8GBmo3b7N7zMepJY+pM1oqB8K+lSAX4V9BVAeFdB7xIHQEk0UWwx4v6NVoyfCvoKmGT4V9Khob/pubej04GG+I/hb8qJzJ8K+lOMnwrWhLZG33shkDAo07wYmIzoSJR40mNfQ0gMJmzsrsTJZXcZS0klgymTM6gjzFRNpD9wfP86b7Ja+H/M351PQp2ptF8TczudNwG4AcAAN2mgFTw5QmHdEA4TqeQHSrPs1ndB/E350wwVn4fmfzqLqRw2F/aL+I/nUlwmE/aD8X9aQwtr4R6n86l7C18PzNEOMDhf2i/j/rUX2bhiIFxByOcGD4E1NbNninzqYt4f4V8yfzoOcxFpkOUlWHAghlPUEbvrVefgNJ4DjXUm3Y+BfKfzp1t2PgFFZGycNrOhbx90cdedb74K24AchtZ0YgT5HhVcWuCLT504IKYapbZdngP8z/AJ1W2zbfL5v+dEm6vIUxdaIEOAt8v8zfnTfYrXI/ib86IfKaqJHM0Ff2WzyP4m/OlUsw50qDmaVKlUUqeaVKgWanD0qVULOaWc01KgfOaQc01KgmLhqQvmlSoF7c0vbGlSoF7c0vaU1Kgl7U86XtjzpUqBfaD19af7SaelRCGKan+1HnSpUCGJNSGLNKlQSGMNSGJpUqCS4ipC/SpVpEvtFOMQaelQL25p/bmlSoH9tUWuUqVBXnpUqVB//Z" alt="" width="80%" height="80%" align="center" > 
+</div>
+<div class="col-g-6 col-m-6 col-6 text" align="center">
+    <p>Mitsubishi Eclipse Cross</p>
+    <ul align= "left">
+        <li>Version: Eclipse Cross PHEV Motion 4WD - 5-puertas - 2021 </li><br>
+        <li>Cambio: Automatico</li><br>
+        <li>Combustible: Hibrido-Enchufable</li><br>
+        <li>Potencia: 188 CV</li><br>
+        <li>Año: 2021</li><br>
+        <li>Precio: 41.500 €</li>
+    </ul>
+    <input type="submit" value="¡Comprelo ya!">
+</div>
+</body>
+
+<style>
+
+    body{
+        background-color: #C4C4C4;
+        background-repeat: no-repeat;
+        Background-size: 100%;
+        Background-attachment: fixed;
+    }
+
+    /*celulares*/
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}  
+
+    /*tablet*/
+    @media only screen and (min-width:668px){
+    .col-m-1{width: 8.33%;}
+    .col-m-2{width: 16.66%;}
+    .col-m-3{width: 25%;}
+    .col-m-4{width: 33.33%;}
+    .col-m-5{width: 41.66%;}
+    .col-m-6{width: 50%;}
+    .col-m-7{width: 58.33%;}
+    .col-m-8{width: 66.66%;}
+    .col-m-9{width: 75%;}
+    .col-m-10{width: 83.33%;}
+    .col-m-11{width: 91.66%;}
+    .col-m-12{width: 100%;}  
+  
+    }
+    /*pc*/
+    @media only screen and (min-width:768px){
+    .col-g-1{width: 8.33%;}
+    .col-g-2{width: 16.66%;}
+    .col-g-3{width: 25%;}
+    .col-g-4{width: 33.33%;}
+    .col-g-5{width: 41.66%;}
+    .col-g-6{width: 50%;}
+    .col-g-7{width: 58.33%;}
+    .col-g-8{width: 66.66%;}
+    .col-g-9{width: 75%;}
+    .col-g-10{width: 83.33%;}
+    .col-g-11{width: 91.66%;}
+    .col-g-12{width: 100%;} 
+    }
+    .imagen{
+        margin-top: 10px;
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px; 
+        width:80%;
+        float:left;
+        margin-left: 5%;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));  
+        border-color: #C4C4C4;
+    }
+    .text {
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px;
+        width:60%;
+        float: left;
+        font-weight: bold;
+        font-size: 40px;
+        font-family:Quicksand;
+        margin-top:2%;
+        margin-left: 12%;
+        color: red;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));
+        border-color: #C4C4C4;
+    }
+    
+    .text ul{
+        font-weight: bold;
+        font-size: 20px;
+        font-family:serif;
+        color: #000000; 
+    }
+    
+    .text input[type=submit]{
+        padding: 15px 15px;
+        background-color: tomato;
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+        border:none;
+        outline: none;
+        width: 30%;
+        font-size: 0.34em;
+        font-family: 'Quicksand', sans-serif;
+        border-radius: 25px;
+        margin-left: 70%;
+    }
+
+    .text input:hover[type=submit]:hover{
+        color:white;
+      background-color:rgb(247, 45, 9) ;
+      border-radius: 25px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="col-g-6 col-m-6 col-6 imagen" align="center">
+    <img src= "https://wieck-nissanao-production.s3.amazonaws.com/photos/0f1f7c57cbc0c093ecd008d5c8f973bd2c9c8bb5/preview-928x522.jpg" alt="" width="80%" height="80%" align="center" > 
+</div>
+<div class="col-g-6 col-m-6 col-6 text" align="center">
+    <p>Nissan GT-R</p>
+    <ul align= "left">
+        <li>Version: GT-R 3.8 V6 600 NISMO Aut. - 2-puertas - 2016 </li><br>
+        <li>Cambio: Automatico</li><br>
+        <li>Combustible: Gasolina</li><br>
+        <li>Potencia: 600 CV</li><br>
+        <li>Año: 2016</li><br>
+        <li>Precio: 175.750 €</li>
+    </ul>
+    <input type="submit" value="¡Comprelo ya!">
+</div>
+</body>
+
+<style>
+
+    body{
+        background-color: #C4C4C4;
+        background-repeat: no-repeat;
+        Background-size: 100%;
+        Background-attachment: fixed;
+    }
+
+    /*celulares*/
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}  
+
+    /*tablet*/
+    @media only screen and (min-width:668px){
+    .col-m-1{width: 8.33%;}
+    .col-m-2{width: 16.66%;}
+    .col-m-3{width: 25%;}
+    .col-m-4{width: 33.33%;}
+    .col-m-5{width: 41.66%;}
+    .col-m-6{width: 50%;}
+    .col-m-7{width: 58.33%;}
+    .col-m-8{width: 66.66%;}
+    .col-m-9{width: 75%;}
+    .col-m-10{width: 83.33%;}
+    .col-m-11{width: 91.66%;}
+    .col-m-12{width: 100%;}  
+  
+    }
+    /*pc*/
+    @media only screen and (min-width:768px){
+    .col-g-1{width: 8.33%;}
+    .col-g-2{width: 16.66%;}
+    .col-g-3{width: 25%;}
+    .col-g-4{width: 33.33%;}
+    .col-g-5{width: 41.66%;}
+    .col-g-6{width: 50%;}
+    .col-g-7{width: 58.33%;}
+    .col-g-8{width: 66.66%;}
+    .col-g-9{width: 75%;}
+    .col-g-10{width: 83.33%;}
+    .col-g-11{width: 91.66%;}
+    .col-g-12{width: 100%;} 
+    }
+    .imagen{
+        margin-top: 10px;
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px; 
+        width:80%;
+        float:left;
+        margin-left: 5%;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));  
+        border-color: #C4C4C4;
+    }
+    .text {
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px;
+        width:60%;
+        float: left;
+        font-weight: bold;
+        font-size: 40px;
+        font-family:Quicksand;
+        margin-top:2%;
+        margin-left: 12%;
+        color: red;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));
+        border-color: #C4C4C4;
+    }
+    
+    .text ul{
+        font-weight: bold;
+        font-size: 20px;
+        font-family:serif;
+        color: #000000; 
+    }
+    
+    .text input[type=submit]{
+        padding: 15px 15px;
+        background-color: tomato;
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+        border:none;
+        outline: none;
+        width: 30%;
+        font-size: 0.34em;
+        font-family: 'Quicksand', sans-serif;
+        border-radius: 25px;
+        margin-left: 70%;
+    }
+
+    .text input:hover[type=submit]:hover{
+        color:white;
+      background-color:rgb(247, 45, 9) ;
+      border-radius: 25px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="col-g-6 col-m-6 col-6 imagen" align="center">
+    <img src= "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgVFhUZGBgYHBgYGBocGhgaGhgaGhgcGhoUGhgcIS4lHB4rIRgaJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QGhISHjQhISs0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDE0ND0xNDQ0MTQ0NDQ0NDQ9NDQ0NDQ0NP/AABEIALcBEwMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAEAAECAwUGB//EAD8QAAEDAgMECAUDAgUDBQAAAAEAAhEDIQQSMUFRYXEFBhMigZGh8EJSscHRFDLhYvFygpKi0hZDUxUjM7LC/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAiEQEBAQACAgIDAQEBAAAAAAAAARECEiExA1ETQWEicRT/2gAMAwEAAhEDEQA/AOhDU4YrSxOAurkgKam2mpBWNKKZrUi1WQllUFBTEqT2wqHlWCRKjlCrL0xetIuNMbEO6iptrFT/AFARPAR1NQLUZnBSNEFAGnCI/TqJpIilOplicMQQCkCrmYcqZwpQUhyfOpGgUuzWhHOlnUm0ZV4wqCgORuGEXCp/TFW06ZCWmNGA4QfBROHbyUGPgJdosy1ciRwm4qp+GLVcx6m6onanWAw+E7gSrw4blbAhLYSVmPaowi6zFQ5qbqelSSfKkrg0zgFRUwRW81ig+muOuuOcfQIUIhdA+iDqFQ/AAq6mMfOrGPR9Tou1kDUwr27FQ72yh30VcyQpIM99NQNNaLqcqsU9i1rOAuzSFNH/AKdOcKU0xnimrGt4o1uEJ2Kf6EppgMAqQYtBmBKmcLGxTVxmGmiKFLgihSVjWgJeS4h2Y3Kp4RDqgVL3LMAr1SXK54VLmrcZp2uVoqKnIU7WlUXZ1JrlBlNGNwcjVS2RZA7nqMq52HhVuYAkpiTCkXqpz1XnlXE0S1XNBQzCUQH2Uog8KpzVY56hnCsSq8pSVudJXTHShiRYqmV5UhV3Li6lkTOEK5r5GichBRKrc1WvfCi14KCh1Bp2IaphRsR5ZG1QcVRluwpCqfQduWsX8EswKamMhrCNisY4hHvpjYoFnJNMNhxOqL7PghWuIKIp196lIsDEzmhTsdqg9wRVLwAh3kKdRyHdKRKT2hQyqWZIPC0iAYNyRpDcrs/BTa/goBcg3KDmHYEY5/BMXK6Yzy8g3VzMVZTfQablMKLQrsTybOSovYVKw0TOcUVT2U6p2MAScUgVWTpJwxM8wmqsbTBVb2AaJu2UHVUmpcKElXKSrLfZTv8Au/lTexw0usXB9MNqtzMeHjQxsO4jUIxmPKxlb2NEYkixCcYoFCsxrTqoF7VMXV9V5BsqBU2jyUBWFxqqw86BVNXuxKj+oQlR52qo1FrEtarMSDZTYZ0WWysDGnNXObluHjks2LKMe9M2qs44i+spqmOaLSnU7Ndr2kaKByrKbihvVzK6dTsPgbymnihBUU2TH0UxdXvhQLJMLMr9L0mfuqsHNw8uaFf1sw7fjceTXfVXDW4MIDtTHDBukLnH9eMODo7yP4VZ684c7Hev3CZTw6xtMJOpLlaXXjDbz5hFs65YY6ucPAflOtNjcNMpRwWfh+seGeJFUeIP10WlTxLXDM1wcN4II9FA0KD2Srs4T5wgE7AJ/wBMipUXQmrgY0AkGNV+UFMaTU0xTkCi6mFeWBVuaiKHUOAVZw53IsMHFQcwq6mB+xSRGRJXTHkWGqGcweGbjJDrXtF0czrHXAANUyDP7AZjZyQxwrr2a+SYgAzbQwSFU8uuwME/Lk9RafReWcrviuvV0VPrbU1dTaWnSMzTzvKMo9bPnpOHiNN94JXIGu+kBmBEnhumwFzZRNcuOjyCBeABui9+C1+TlE6R3R60MmMj4tJhosdut1Y7rLSABJc0kTBF+Wseq4Oq120ubxdlBJvqR8O4Qo5iNL6WHDbx/lJ8vL+J0jr8d1uGjGZjvc4Af7ZQjOtZjv0wDf8Aa4kcPhsuZNS0uJaYgWIMyLRfYk1mYtazM50xEFoM6CdPGyn5OX2vSOqw3WxjpBY9pHKDyJjb9UL0j1leD3D3DBbIuLXaQeKy3YYjuudlFiRI2ajSSNPeoNYZzDLu+UamP6dT4LN+blckpeHGOowvWZj2ukQ5rc39Lj8oOoPNQwHWEPdle3LxBkAAElxGwW9QuabhXsa7PSLcwAGZwbz7ryJ0QzMBXfJYwu1EhzIPAmY3Lc+T5bf5/wAZ68cd7iuladMNLnE5gCMomx0J3JdH9YKdQ5GPLTBMOt4TpK4odE4iACy/+NnkDmgLRb0C7/2wGwNaziBUfNoawAloGt9dF148+fK+ZjF4yOzZinOIDSXHYAd2pJ0A4lSxONe4dm053bYtTbz+bmbcEBh6bmU+yoUTTZtLpzPPzOMXPir+ze1uRlM8SNT4mFu+WfMVM6NYLveC86xAjxOqA6X6KaGF/auA0ywDnJsGAiLkwE+KZXbph3/6mH7rKqV62drn0XhrB3Rmp2dtee/sFhzKi+QOPoPw/wC9mujgZbykbeaxq/SRPEo3p/GVqzwMvcbMS5h1iSYcb2WG6m4GTazh+0xcW8jB8FGp/W7T6u4mo0OysaDcZnj/APEoDG9F1aD2NeWhz5OVriYA1zWjbbkn6M6bqYeBnlh1aZjw4+7rQ6OnF4kvOlmsB1gaNttLj9VePtPOtvo+mWMacskjbsBG7eR9Vq4N7mDOxxbsMft5EaLnunelRQdlblc7Uhzi1rWyQLbdD5Kvo3rYWnvBgB1yukeLXC61ZfZHpOD6Sa9jSXDNoRpfbG8WRHb8VyTCIcS9rQQHCDsIkObuMglKjjMSaNN7MheGgPa+QSdMwgG87ITiV2jKjiNUjWK5LDdP1wxr6jGMBjUgGdxl8zyaVoM6fZ2faOE97LDDmvG3MG5f7JVbwxCftlyVbrO74GNAjbJM7L2H1QDusNcmQ/LqYDWgaWFwZWO0XrXddukKi88d1mxBg5xbUZGwTyAWpheuYgB9K+9rrHwIt5q7EyuuznenzHeuZPXClEim+d0sjzn7Ks9cGadkZ298endumwx1EO3pLlP+r91A+NQf8UldhjiW0nzIeSdwEAbN5iyJY9wbBdfeHDQbIReR8WytaJsHETprPJDVMSwH9rczSA65IA4R7leDs74eniMglwLzxMAW4Iuh0mXAQxl9++TB0uePFCnGNcA0MzTrmubRt1hWVMPBzNZEaS4+wpfPuKtr1aefM90mLhoIiN8mCmGMwzbhrXm1oNuI3T9kO7HsByE5zEwACDwunbUaTOSBJBhuwDh5KZ9jQcBVHdaGBot3d/wzNr7lnuz03sdmBBJkXM78x5EqzEVM4LQHNiY7pIkbYQXQlGviKhYGlvxPeRZrdJG82st8eNviJbjoOhOhW4lxeQW0wbyQATAkB0WAkSRe4A3gPrTj206n6fDNDY7sMEFx2ucASXGbCZ0XQVenWYagaLWAPy5WCQcpnvPcYFyb2kSVynRncBe9jw913PjNM7GmxDfBez4/i6xxvLbV3RPQrW9/EkzrkkEn/FrHK/gt+r0zTbZlBpiwkZoHiuaqdIsJ7z3csjo89qrr9M08mUSHSZd3pjYAIgc76rr4Zb1TrBUH7WMYOTQhKnWWrtqeAK5HEY8HTMecoJ+K4gc5+wW5xiOwq9YXfOT/AJj9kN/664/F6n6yucoDM4APYATGZ3dA4wbx68F0vR76FISxwLh/3DkL+bGusweE8Veue6lufrWnhRWcMxaWD5nvLG+RBcfAeKvxOKexxYKh0vDA2OEvLi6eQWW7ptsguezukEOc5rnkgk6zx9Aq+m+nn4mp2gHegNzZco0jM1upPE2XLz2/jUvj+q8Rja7XlrcS6BHAgxdpi0hF4PpWpOV5a9p1zNafOQgMPgX5Q7JUcDN2scRI1lwGqy8cHuJBc1jQQIL2gyZjxMHyS8uPGfayW12jcDh6gLjTZEx3SWjyaYWJ0tjnUX5MNhrs0eGuOut23PnKyMLVq4V/asJOW72PAJa02zWs9vLTZoSCcf09iXmQ4NaZIyhvlO2w9U43jfa3jf0qwnRtXEPdUrtLZIJdDs5AFmMB/a3eYJW9h+h6DSCKAJGhdmdpt7xN1yx6Yr7ajjwBj6JN6SqO1NQxuqP+xC1/mfozl9u5q13xMERtOzzQhNR/xmNneAHk1crSqF7HPeHBoBN3OdIAn4iRs3IboHpF3agPlzcpsDly7REWNztBU78ZfR1rvcHmZMvBG0TMjiNqbpCiGND2ABjiA9snKCbtMX1j04rk+js5f2ZquyvILzYkW7xE8CBu7w3LUa+lSflY5z6NUZHtcWuLXgZmPaQBaQLEbRFip8vPjymcZhx42XyKpV25ocbHQQNd5O5FZGRMtjheViPMwIvY3J8NNyqZWIMATvtbgBuXl11H4vJmluu2dPBDEA8EzKkmSJB3ajmI1Sc4AmCDw4TrOi1OUZvE11aTIF9FQ9x48PYSa/kt9pWetE5PcJKGcbikmmKajc4lr+9ET9uKFNOqXBhaHZgCbabYJ26IKk8tibfTTbuRjMVDc2aTw2b/AK6rzdY6aWHc9jjnzEGQS12m86Si35Ihofm3lxPiQREXuo4auCGkhxncJA2DzUauKqA5GtM2IhpEwJmdttimKKYxskWiwOWC52u6SdqvFRkloYLHSHgtG+TG/wBNqyaYrwXBriSSBmsRt2xGmq0cJhKocJLiDB004Ajw0UzPdNaFOpDD3Mw2EZYGnd2ydfJT6Kx9RjnNaQ3R3fAFM6ggVG3Dr/tIi0hW4bCVGgTTtJcbWPO1onVcX05Qy4x+zM1rhB/pANxyK6cLN8HL06uh07hw+P07s7ph4eHtFwO6XAQb6FpP1Wni8KXsa7NZ8wXNJED4j3QQOJEXC4zAY7DUGAVDVNUuLmBrQ5rGw0DMC5s5iDpcAcVpu600HCDO4yHt1JJ0DxqdQvX3/wAzPf7cevm/S6v0LVvFSno18QxuVriQHEZgWglpF9x3LNxPQ7mtL3vYWgZjlewwJy5oBMibLVHW2m6xIAhoPeN4fnzS6m2DmM20IHJC47p6nUpvYHAueACSWAF3aBxee+TpNgOUCyvH5ef8S8Y5p+GYdHj1VLsOwa1Go7E9Hu+do5zfks40iw5S1pMzJ2jZs0Xbl8vLjNsYnGW+Km2nTGlUeCkKTT/3J8SrmY8zH6eht+F2wE7+Cd+NO2jTA/pBn1K5f+m/Ua/F/anRp02bSXb8riB5C5V7ulWMs1jnO3uBb5AiVCji3NALCHTpmFr8AVN/SlV3ceWxp+xp/wDsCtcvllmk4XVOHxxdUzPe5jR3TlkNBdIAsZ3knWyjisG0F7QNKlJzcpkQ7MJnbIbP+YJ3OYxtw5pJLs4Peta4JAIGcW5rc6GwQdTzMh+hYLsBsYDs2gLi4gabQvLzu3XafQatRe2oW5Z1cwCYyxEcnZXNcNJLXRdU08PLQ1t2gktiT3SAW3292LoupTE0MwAgvD2y2A4PblddxzEQRNzdWYUNbSdA7weWAbmgkrlw5Wza3Zl8M5/R+8AcyPoraXRxOjh4GfoE9Wr/AFgeIT0Kwm2Z53MaXE7hYLpvK+k8QJ07T7OnGYEvOXbMauJk7vqs/oSkcr6kWkMbwnWPD6LT6ZwVV7WPLMoEgAuGeHaktPIeCsoUWspsYTGXdfvHVxVuyZU93YGouHfEWc0MI2w897/bHINlaT6Di9lNrTAyd4iA55e3Sf3ANMW0QXQ9EOxHeJhj2OIEye4GRyGa/AFafV6g39RLWvJc9jpc7OBkdJAOUOgHMNuk8Fnl6J7a2K6rVbua9k2+bjf9tkIzq7X25CdZDz9C0LtTXcbEDzd/xVLrajx19YXGcvt0vFw56ArB16ZH9Qcwg8SJBlV1OjXgwaT+YYSPSYXcF24jxI+oVZnd5EELc5MXi4N7HtgOa6NssdAtuIQ1WpeGEcWmx8CvQy+VS+Dr6gEKjgs3uAmXc5G/Iz/Sz8JK6gGn1RpEySSbyAdvMO+y0KHVtjRGRg5gb/PTiujDB+EjTAM2HgvP5dcjJb0cxu1oJ2b95+ivp9HsiNdug2rQdA2SoteD+P5QVMwrRsAV9JkcfQD0TXiw15KJadLRsQTtvA3rh+tPRbauIbVnI5rcneZma8Ak2Bc29z+0nZouvLUBjnvAOVrTwIWuHLrdw5cdmPJX4KqarqjqYaAbNc5rLRDQC4mSLb1WcK8fCfCHeoK7rGYjESYw1E7J7OTxuDKxsVUqH9+Fp7fhqgeWaPRdpzlcrxrm3SJkEc2kbQqi4cPX7rWfiHCR2Ib/AIZaPoqH4k7af+95+q3sZyp9F4lpHZOOv7DOh+X8It2Dc9kxBb8RsPEnYseo5u1h8HH8Kyt0gXANcHOA0Dsjo8S2V34/NOt48vLlfjvbtE6VQZhcGJFiDsI8kQ+DpHhCzTVp7aZ/2j6Js9H/AMTv9R/K45x+3TaMwrrAbj9DP0WrhntJE6rIwuPpMnLSdfWcrh5OlXu6bZ/4yI0jI36C6tzPayijSDmvfla7IXGDqSRZsbWmCSf6Y2ypmq8UC097t8xDiLgMa51MncZtYQMttUDhOlWB9m5WkZXBziQ6+0i7dlxoRK1MR2DyHmvVaQQ4McGuaI0DQ0NDhFrxZc/K+FnRdcVGtc8h3YglxHxDO15cTvcWMZxLyU9J5DAModMl0kATOtzG9Qe59Rgbh6JawaGIzu2OdsgbG6DedUE3qpiHxmP+p0/cqTrPC+aKOKDb5qLPGnPPuAlNU6ZB/diSeDQ949S0J6XUt2rngcgT+Fo4bqZT+J7/AAbH1lW/LPs61nYbFYZx71d401a1gJ2j44HG6D6a6TpB+Wk1+UCC4vDg4/MCGttwhdbT6p4cWyudzP4hEf8ATGGj/wCIev3Kz+SL1rgOicee0eSQ0vDxmicheCMwHCfRei9UsExj2uzscWgucWkuYHuBAaDA2EuOnwqkdW8ODIw7ORDY/K18LhWMaGsYGtGjWiAPJZ5c9mRZxx0jKrT8p/ylThmthzBhYOWLzHiYUwSPiPn9oXNtt/p6eyPPVVnAsNx9VmMxD/mtxaT9wp/ryATMAXkzs2poKqdHMOpGu8W4/wAKmp0I03a+Od/uoUscS0OzNc0iQRN5uPiuFF+KnTXjMfT+FqVLEf8A0F3zN80lD9VU3U/M/wDFJXsmLmvdsCmGnX0mEExxPEcPvKvY10Xtzkrm6CQ4e7pdqNk+AVBjaU7ocMt/DVBKsQ4XkDaQSOESFXnbECT6nxJMlWZbfQ6p2mOPoggWSJAI98VIUhMxfldOH7k4/qd4ACPW/qgryA/yExpjSJ97le540AlNnG5AE/BMOrAeYVT+iaTtabf9IWgayYv/ALIMd3VnDk3pj1/Kof1Vw3yAeJC3QZ9/ZKeGvvam1Mc8eqOG+T1Krd1Qw+xp0nVdNF/soMaI89Z8rq9qmRzI6n0dzvP8hSPVCjplnnH4XTg+543Uh57/AGE7UyOY/wCjsPtpNVlHqxh26UmcLE35FdHBnh71Tlw0snamRltwGX9rQPAKwYU8/e5aDXe/7qY4qa0zG4fkk5uyFpOAUSZGkoAadNTymbtRTWjQJ1kCPYflBCi2k3UCDwcfpoisscuKoxDcozCSNoEny1hXTDhk7vwn7LeRoo0qwO3TzHOeSvD73TUxA0Qm7Ebjf3dXgqaqA30RuPsKvIRpKOc1UubxKAbvbvRMr4PzfRJAM2rEgaqQqE6/hZja1on3zVocSNY5oDzVA3lTbUQDagH1/lOKvKNn4CND2Omb/lTY/h4/3QPaqp1d1xlI3EEX89EGrn3KNR8/ys9j+JPP7JzV9x6oDc4ACQqcf4/JQIfHv0CtFQ/hAWXf2+54qBJP9tNwCpDjvhRL9x4+ztQEA7Pfn7NlMO/GqHz8Uzq4CArtLXIUQ8b/AFHlG1BOqkzvH44KbHk7fS/rKAsPnl4KTak2j34oVr9dl0mPKAoE6z9+cJMePevkhhWIEuIHL+dU4rcvogKz7uacP3obPxSL0F5fw04pZgUOXKIfqPX8ICi4bdijmG/7e9UOcQflJ8NPXVWBwInlqI9FkWtf738lFziFTnjYkaoQWPa1+6R6fhRa/YZ8VTVcYt+FU+7RP7tNbjYijs2kH3wTiogO1IiRbfKfPtBRBzasD1T9sOKBNXf78FAv5fdXUwRUeZMfSfukhc53HySV1GKzFDSb7IlWdqeGzy/KyhVgWUxUJWsNa4qpzihxWWT587BXMrka3UwaLMTKk6vvsge1nYmDtp1UBwqSpZ/YmT5BBF29TF9dmkTfgmNDm1Y0UmvvMm3lfZA1QJfun0sBwlP23EeesID+24+iZtSLygWPkafn6pdrMqYNF1bZa6pdV1tx9+qCa8eV9qkX7vZG1UE9pPDTSPurRUBJ2G3Mjd9UB2uskAbNfJP2njp/dAf2qaeXkgnVAAJudN6m2oAgODh6Jw/nzQRqg6G/P1jmpdspiaK7S/pKd7xoDf18kIH7knVUw0V20a8Nuqcv2oIVISqVCZExu1F/uExRvapGrx85We+qTYecJu146aqjSFfefqoudu/hBOqzsukanv3ogNbWO1RLws91cbrJdspia0HPm0fRDVHkXHkeWy4Q/bJHEAiCPfNMNWnEzwO7+JUXVts/Xwj8FDVL7beoVT3Rcf3VxRn6v+rzA/KSzu1PuUlcTWe18Kxp9UyS2ytpvO7erG1NkH080kllThx4jxU2u4/ymSQW5tqkJ97tqSSgoe90jKWiTeQTNtlxCtnfs1SSQSfUvHjbaoMqh2kAckkkFjH6niouyzJBBB3n7JJIJF8A3P45Jqbwbg21OqdJAi4aibwUs/Pz0SSQTNThfT1Uu0/v/CSSCXakqJqa+7pJIG7S8DyhIv2bvJJJBU6vaRPPelnsNx9ykkglTr21P5TOxKSSBi4aAR5KJjd74JklRW+pGqrdWhJJQR7aPFJ79oKZJaFfa8EySSD/2Q==" alt="" width="80%" height="80%" align="center" > 
+</div>
+<div class="col-g-6 col-m-6 col-6 text" align="center">
+    <p>Porsche Cayman</p>
+    <ul align= "left">
+        <li>Version: Cayman GT4 PDK - 2-puertas - 2021 </li><br>
+        <li>Cambio: Automatico</li><br>
+        <li>Combustible: Gasolina</li><br>
+        <li>Potencia: 420 CV</li><br>
+        <li>Año: 2021</li><br>
+        <li>Precio: 115.452 €</li>
+    </ul>
+    <input type="submit" value="¡Comprelo ya!">
+</div>
+</body>
+
+<style>
+
+    body{
+        background-color: #C4C4C4;
+        background-repeat: no-repeat;
+        Background-size: 100%;
+        Background-attachment: fixed;
+    }
+
+    /*celulares*/
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}  
+
+    /*tablet*/
+    @media only screen and (min-width:668px){
+    .col-m-1{width: 8.33%;}
+    .col-m-2{width: 16.66%;}
+    .col-m-3{width: 25%;}
+    .col-m-4{width: 33.33%;}
+    .col-m-5{width: 41.66%;}
+    .col-m-6{width: 50%;}
+    .col-m-7{width: 58.33%;}
+    .col-m-8{width: 66.66%;}
+    .col-m-9{width: 75%;}
+    .col-m-10{width: 83.33%;}
+    .col-m-11{width: 91.66%;}
+    .col-m-12{width: 100%;}  
+  
+    }
+    /*pc*/
+    @media only screen and (min-width:768px){
+    .col-g-1{width: 8.33%;}
+    .col-g-2{width: 16.66%;}
+    .col-g-3{width: 25%;}
+    .col-g-4{width: 33.33%;}
+    .col-g-5{width: 41.66%;}
+    .col-g-6{width: 50%;}
+    .col-g-7{width: 58.33%;}
+    .col-g-8{width: 66.66%;}
+    .col-g-9{width: 75%;}
+    .col-g-10{width: 83.33%;}
+    .col-g-11{width: 91.66%;}
+    .col-g-12{width: 100%;} 
+    }
+    .imagen{
+        margin-top: 10px;
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px; 
+        width:80%;
+        float:left;
+        margin-left: 5%;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));  
+        border-color: #C4C4C4;
+    }
+    .text {
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px;
+        width:60%;
+        float: left;
+        font-weight: bold;
+        font-size: 40px;
+        font-family:Quicksand;
+        margin-top:2%;
+        margin-left: 12%;
+        color: red;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));
+        border-color: #C4C4C4;
+    }
+    
+    .text ul{
+        font-weight: bold;
+        font-size: 20px;
+        font-family:serif;
+        color: #000000; 
+    }
+    
+    .text input[type=submit]{
+        padding: 15px 15px;
+        background-color: tomato;
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+        border:none;
+        outline: none;
+        width: 30%;
+        font-size: 0.34em;
+        font-family: 'Quicksand', sans-serif;
+        border-radius: 25px;
+        margin-left: 70%;
+    }
+
+    .text input:hover[type=submit]:hover{
+        color:white;
+      background-color:rgb(247, 45, 9) ;
+      border-radius: 25px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="col-g-6 col-m-6 col-6 imagen" align="center">
+    <img src= "https://youbethedriver.com/wp-content/uploads/2020/05/Subaru-Levorg-STI-Sport-2020-blanco.jpg" alt="" width="80%" height="80%" align="center" > 
+</div>
+<div class="col-g-6 col-m-6 col-6 text" align="center">
+    <p>Subaru Levorg</p>
+    <ul align= "left">
+        <li>Version: Levorg 2.0 i GLP Sport CVT - 5-puertas - 2020 </li><br>
+        <li>Cambio: Automatico</li><br>
+        <li>Combustible: Gas</li><br>
+        <li>Potencia: 149 CV</li><br>
+        <li>Año: 2020</li><br>
+        <li>Precio: 31.150 €</li>
+    </ul>
+    <input type="submit" value="¡Comprelo ya!">
+</div>
+</body>
+
+
+<style>
+
+    body{
+        background-color: #C4C4C4;
+        background-repeat: no-repeat;
+        Background-size: 100%;
+        Background-attachment: fixed;
+    }
+
+    /*celulares*/
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}  
+
+    /*tablet*/
+    @media only screen and (min-width:668px){
+    .col-m-1{width: 8.33%;}
+    .col-m-2{width: 16.66%;}
+    .col-m-3{width: 25%;}
+    .col-m-4{width: 33.33%;}
+    .col-m-5{width: 41.66%;}
+    .col-m-6{width: 50%;}
+    .col-m-7{width: 58.33%;}
+    .col-m-8{width: 66.66%;}
+    .col-m-9{width: 75%;}
+    .col-m-10{width: 83.33%;}
+    .col-m-11{width: 91.66%;}
+    .col-m-12{width: 100%;}  
+  
+    }
+    /*pc*/
+    @media only screen and (min-width:768px){
+    .col-g-1{width: 8.33%;}
+    .col-g-2{width: 16.66%;}
+    .col-g-3{width: 25%;}
+    .col-g-4{width: 33.33%;}
+    .col-g-5{width: 41.66%;}
+    .col-g-6{width: 50%;}
+    .col-g-7{width: 58.33%;}
+    .col-g-8{width: 66.66%;}
+    .col-g-9{width: 75%;}
+    .col-g-10{width: 83.33%;}
+    .col-g-11{width: 91.66%;}
+    .col-g-12{width: 100%;} 
+    }
+    .imagen{
+        margin-top: 10px;
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px; 
+        width:80%;
+        float:left;
+        margin-left: 5%;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));  
+        border-color: #C4C4C4;
+    }
+    .text {
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px;
+        width:60%;
+        float: left;
+        font-weight: bold;
+        font-size: 40px;
+        font-family:Quicksand;
+        margin-top:2%;
+        margin-left: 12%;
+        color: red;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));
+        border-color: #C4C4C4;
+    }
+    
+    .text ul{
+        font-weight: bold;
+        font-size: 20px;
+        font-family:serif;
+        color: #000000; 
+    }
+    
+    .text input[type=submit]{
+        padding: 15px 15px;
+        background-color: tomato;
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+        border:none;
+        outline: none;
+        width: 30%;
+        font-size: 0.34em;
+        font-family: 'Quicksand', sans-serif;
+        border-radius: 25px;
+        margin-left: 70%;
+    }
+
+    .text input:hover[type=submit]:hover{
+        color:white;
+      background-color:rgb(247, 45, 9) ;
+      border-radius: 25px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="col-g-6 col-m-6 col-6 imagen" align="center">
+    <img src= "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2017-fiat-500c-carbiolet-108patrick-m-hoey-1526589564.jpg" alt="" width="80%" height="80%" align="center" > 
+</div>
+<div class="col-g-6 col-m-6 col-6 text" align="center">
+    <p>Abarth 500</p>
+    <ul align= "left">
+        <li>Version: Abarth 595C 1.4T-Jet Monster Energy Yamaha 121kW - 2-puertas - 2020 </li><br>
+        <li>Cambio: Manual</li><br>
+        <li>Combustible: Gasolina</li><br>
+        <li>Potencia: 165 CV</li><br>
+        <li>Año: 2020</li><br>
+        <li>Precio: 29.300 €</li>
+    </ul>
+    <input type="submit" value="¡Comprelo ya!">
+</div>
+</body>
+
+<style>
+
+    body{
+        background-color: #C4C4C4;
+        background-repeat: no-repeat;
+        Background-size: 100%;
+        Background-attachment: fixed;
+    }
+
+    /*celulares*/
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}  
+
+    /*tablet*/
+    @media only screen and (min-width:668px){
+    .col-m-1{width: 8.33%;}
+    .col-m-2{width: 16.66%;}
+    .col-m-3{width: 25%;}
+    .col-m-4{width: 33.33%;}
+    .col-m-5{width: 41.66%;}
+    .col-m-6{width: 50%;}
+    .col-m-7{width: 58.33%;}
+    .col-m-8{width: 66.66%;}
+    .col-m-9{width: 75%;}
+    .col-m-10{width: 83.33%;}
+    .col-m-11{width: 91.66%;}
+    .col-m-12{width: 100%;}  
+  
+    }
+    /*pc*/
+    @media only screen and (min-width:768px){
+    .col-g-1{width: 8.33%;}
+    .col-g-2{width: 16.66%;}
+    .col-g-3{width: 25%;}
+    .col-g-4{width: 33.33%;}
+    .col-g-5{width: 41.66%;}
+    .col-g-6{width: 50%;}
+    .col-g-7{width: 58.33%;}
+    .col-g-8{width: 66.66%;}
+    .col-g-9{width: 75%;}
+    .col-g-10{width: 83.33%;}
+    .col-g-11{width: 91.66%;}
+    .col-g-12{width: 100%;} 
+    }
+    .imagen{
+        margin-top: 10px;
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px; 
+        width:80%;
+        float:left;
+        margin-left: 5%;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));  
+        border-color: #C4C4C4;
+    }
+    .text {
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px;
+        width:60%;
+        float: left;
+        font-weight: bold;
+        font-size: 40px;
+        font-family:Quicksand;
+        margin-top:2%;
+        margin-left: 12%;
+        color: red;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));
+        border-color: #C4C4C4;
+    }
+    
+    .text ul{
+        font-weight: bold;
+        font-size: 20px;
+        font-family:serif;
+        color: #000000; 
+    }
+    
+    .text input[type=submit]{
+        padding: 15px 15px;
+        background-color: tomato;
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+        border:none;
+        outline: none;
+        width: 30%;
+        font-size: 0.34em;
+        font-family: 'Quicksand', sans-serif;
+        border-radius: 25px;
+        margin-left: 70%;
+    }
+
+    .text input:hover[type=submit]:hover{
+        color:white;
+      background-color:rgb(247, 45, 9) ;
+      border-radius: 25px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="col-g-6 col-m-6 col-6 imagen" align="center">
+    <img src= "https://images1.autocasion.com/unsafe/900x600/actualidad/wp-content/uploads/2014/02/_main_image_150271_52fd422cb8450.jpg" alt="" width="80%" height="80%" align="center" > 
+</div>
+<div class="col-g-6 col-m-6 col-6 text" align="center">
+    <p>Suzuki SX4 S-Cross</p>
+    <ul align= "left">
+        <li>Version: S-Cross 1.4T GLX Mild Hybrid Aut. - 5-puertas - 2021 </li><br>
+        <li>Cambio: Automatico</li><br>
+        <li>Combustible: Gasolina</li><br>
+        <li>Potencia: 129 CV</li><br>
+        <li>Año: 2021</li><br>
+        <li>Precio: 30.235 €</li>
+    </ul>
+    <input type="submit" value="¡Comprelo ya!">
+</div>
+</body>
+
+<style>
+
+    body{
+        background-color: #C4C4C4;
+        background-repeat: no-repeat;
+        Background-size: 100%;
+        Background-attachment: fixed;
+    }
+
+    /*celulares*/
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}  
+
+    /*tablet*/
+    @media only screen and (min-width:668px){
+    .col-m-1{width: 8.33%;}
+    .col-m-2{width: 16.66%;}
+    .col-m-3{width: 25%;}
+    .col-m-4{width: 33.33%;}
+    .col-m-5{width: 41.66%;}
+    .col-m-6{width: 50%;}
+    .col-m-7{width: 58.33%;}
+    .col-m-8{width: 66.66%;}
+    .col-m-9{width: 75%;}
+    .col-m-10{width: 83.33%;}
+    .col-m-11{width: 91.66%;}
+    .col-m-12{width: 100%;}  
+  
+    }
+    /*pc*/
+    @media only screen and (min-width:768px){
+    .col-g-1{width: 8.33%;}
+    .col-g-2{width: 16.66%;}
+    .col-g-3{width: 25%;}
+    .col-g-4{width: 33.33%;}
+    .col-g-5{width: 41.66%;}
+    .col-g-6{width: 50%;}
+    .col-g-7{width: 58.33%;}
+    .col-g-8{width: 66.66%;}
+    .col-g-9{width: 75%;}
+    .col-g-10{width: 83.33%;}
+    .col-g-11{width: 91.66%;}
+    .col-g-12{width: 100%;} 
+    }
+    .imagen{
+        margin-top: 10px;
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px; 
+        width:80%;
+        float:left;
+        margin-left: 5%;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));  
+        border-color: #C4C4C4;
+    }
+    .text {
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px;
+        width:60%;
+        float: left;
+        font-weight: bold;
+        font-size: 40px;
+        font-family:Quicksand;
+        margin-top:2%;
+        margin-left: 12%;
+        color: red;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));
+        border-color: #C4C4C4;
+    }
+    
+    .text ul{
+        font-weight: bold;
+        font-size: 20px;
+        font-family:serif;
+        color: #000000; 
+    }
+    
+    .text input[type=submit]{
+        padding: 15px 15px;
+        background-color: tomato;
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+        border:none;
+        outline: none;
+        width: 30%;
+        font-size: 0.34em;
+        font-family: 'Quicksand', sans-serif;
+        border-radius: 25px;
+        margin-left: 70%;
+    }
+
+    .text input:hover[type=submit]:hover{
+        color:white;
+      background-color:rgb(247, 45, 9) ;
+      border-radius: 25px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="col-g-6 col-m-6 col-6 imagen" align="center">
+    <img src= "https://www.km77.com/media/fotos/morgan_4_4_2005_44_3881_1.jpg" alt="" width="80%" height="80%" align="center" > 
+</div>
+<div class="col-g-6 col-m-6 col-6 text" align="center">
+    <p>Morgan 4/4</p>
+    <ul align= "left">
+        <li>Version: 4/4 1.6 - 2-puertas - 2012 </li><br>
+        <li>Cambio: Manual</li><br>
+        <li>Combustible: Gasolina</li><br>
+        <li>Potencia: 110 CV</li><br>
+        <li>Año: 2012</li><br>
+        <li>Precio: 55.331 €</li>
+    </ul>
+    <input type="submit" value="¡Comprelo ya!">
+</div>
+</body>
+
+<style>
+
+    body{
+        background-color: #C4C4C4;
+        background-repeat: no-repeat;
+        Background-size: 100%;
+        Background-attachment: fixed;
+    }
+
+    /*celulares*/
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}  
+
+    /*tablet*/
+    @media only screen and (min-width:668px){
+    .col-m-1{width: 8.33%;}
+    .col-m-2{width: 16.66%;}
+    .col-m-3{width: 25%;}
+    .col-m-4{width: 33.33%;}
+    .col-m-5{width: 41.66%;}
+    .col-m-6{width: 50%;}
+    .col-m-7{width: 58.33%;}
+    .col-m-8{width: 66.66%;}
+    .col-m-9{width: 75%;}
+    .col-m-10{width: 83.33%;}
+    .col-m-11{width: 91.66%;}
+    .col-m-12{width: 100%;}  
+  
+    }
+    /*pc*/
+    @media only screen and (min-width:768px){
+    .col-g-1{width: 8.33%;}
+    .col-g-2{width: 16.66%;}
+    .col-g-3{width: 25%;}
+    .col-g-4{width: 33.33%;}
+    .col-g-5{width: 41.66%;}
+    .col-g-6{width: 50%;}
+    .col-g-7{width: 58.33%;}
+    .col-g-8{width: 66.66%;}
+    .col-g-9{width: 75%;}
+    .col-g-10{width: 83.33%;}
+    .col-g-11{width: 91.66%;}
+    .col-g-12{width: 100%;} 
+    }
+    .imagen{
+        margin-top: 10px;
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px; 
+        width:80%;
+        float:left;
+        margin-left: 5%;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));  
+        border-color: #C4C4C4;
+    }
+    .text {
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px;
+        width:60%;
+        float: left;
+        font-weight: bold;
+        font-size: 40px;
+        font-family:Quicksand;
+        margin-top:2%;
+        margin-left: 12%;
+        color: red;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));
+        border-color: #C4C4C4;
+    }
+    
+    .text ul{
+        font-weight: bold;
+        font-size: 20px;
+        font-family:serif;
+        color: #000000; 
+    }
+    
+    .text input[type=submit]{
+        padding: 15px 15px;
+        background-color: tomato;
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+        border:none;
+        outline: none;
+        width: 30%;
+        font-size: 0.34em;
+        font-family: 'Quicksand', sans-serif;
+        border-radius: 25px;
+        margin-left: 70%;
+    }
+
+    .text input:hover[type=submit]:hover{
+        color:white;
+      background-color:rgb(247, 45, 9) ;
+      border-radius: 25px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="col-g-6 col-m-6 col-6 imagen" align="center">
+    <img src= "https://i.ytimg.com/vi/xlBcxpn7X9U/maxresdefault.jpg" alt="" width="80%" height="80%" align="center" > 
+</div>
+<div class="col-g-6 col-m-6 col-6 text" align="center">
+    <p>Aston Martin DBS</p>
+    <ul align= "left">
+        <li>Version: DBS Superleggera Volante - 2-puertas - 2020 </li><br>
+        <li>Cambio: Automatico</li><br>
+        <li>Combustible: Gasolina</li><br>
+        <li>Potencia: 725 CV</li><br>
+        <li>Año: 2020</li><br>
+        <li>Precio: 337.871 €</li>
+    </ul>
+    <input type="submit" value="¡Comprelo ya!">
+</div>
+</body>
+
+<style>
+
+    body{
+        background-color: #C4C4C4;
+        background-repeat: no-repeat;
+        Background-size: 100%;
+        Background-attachment: fixed;
+    }
+
+    /*celulares*/
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}  
+
+    /*tablet*/
+    @media only screen and (min-width:668px){
+    .col-m-1{width: 8.33%;}
+    .col-m-2{width: 16.66%;}
+    .col-m-3{width: 25%;}
+    .col-m-4{width: 33.33%;}
+    .col-m-5{width: 41.66%;}
+    .col-m-6{width: 50%;}
+    .col-m-7{width: 58.33%;}
+    .col-m-8{width: 66.66%;}
+    .col-m-9{width: 75%;}
+    .col-m-10{width: 83.33%;}
+    .col-m-11{width: 91.66%;}
+    .col-m-12{width: 100%;}  
+  
+    }
+    /*pc*/
+    @media only screen and (min-width:768px){
+    .col-g-1{width: 8.33%;}
+    .col-g-2{width: 16.66%;}
+    .col-g-3{width: 25%;}
+    .col-g-4{width: 33.33%;}
+    .col-g-5{width: 41.66%;}
+    .col-g-6{width: 50%;}
+    .col-g-7{width: 58.33%;}
+    .col-g-8{width: 66.66%;}
+    .col-g-9{width: 75%;}
+    .col-g-10{width: 83.33%;}
+    .col-g-11{width: 91.66%;}
+    .col-g-12{width: 100%;} 
+    }
+    .imagen{
+        margin-top: 10px;
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px; 
+        width:80%;
+        float:left;
+        margin-left: 5%;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));  
+        border-color: #C4C4C4;
+    }
+    .text {
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px;
+        width:60%;
+        float: left;
+        font-weight: bold;
+        font-size: 40px;
+        font-family:Quicksand;
+        margin-top:2%;
+        margin-left: 12%;
+        color: red;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));
+        border-color: #C4C4C4;
+    }
+    
+    .text ul{
+        font-weight: bold;
+        font-size: 20px;
+        font-family:serif;
+        color: #000000; 
+    }
+    
+    .text input[type=submit]{
+        padding: 15px 15px;
+        background-color: tomato;
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+        border:none;
+        outline: none;
+        width: 30%;
+        font-size: 0.34em;
+        font-family: 'Quicksand', sans-serif;
+        border-radius: 25px;
+        margin-left: 70%;
+    }
+
+    .text input:hover[type=submit]:hover{
+        color:white;
+      background-color:rgb(247, 45, 9) ;
+      border-radius: 25px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="col-g-6 col-m-6 col-6 imagen" align="center">
+    <img src= "https://www.diariomotor.com/imagenes/picscache/1920x1600c/bentley-continental-gt-2018-ficha-002_1920x1600c.jpg" alt="" width="80%" height="80%" align="center" > 
+</div>
+<div class="col-g-6 col-m-6 col-6 text" align="center">
+    <p>Bentley Continental</p>
+    <ul align= "left">
+        <li>Version: Continental V8 GT Mulliner - 2-puertas - 2021 </li><br>
+        <li>Cambio: Automatico</li><br>
+        <li>Combustible: Gasolina</li><br>
+        <li>Potencia: 550 CV</li><br>
+        <li>Año: 2021</li><br>
+        <li>Precio: 297.940 €</li>
+    </ul>
+    <input type="submit" value="¡Comprelo ya!">
+</div>
+</body>
+
+
+<style>
+
+    body{
+        background-color: #C4C4C4;
+        background-repeat: no-repeat;
+        Background-size: 100%;
+        Background-attachment: fixed;
+    }
+
+    /*celulares*/
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}  
+
+    /*tablet*/
+    @media only screen and (min-width:668px){
+    .col-m-1{width: 8.33%;}
+    .col-m-2{width: 16.66%;}
+    .col-m-3{width: 25%;}
+    .col-m-4{width: 33.33%;}
+    .col-m-5{width: 41.66%;}
+    .col-m-6{width: 50%;}
+    .col-m-7{width: 58.33%;}
+    .col-m-8{width: 66.66%;}
+    .col-m-9{width: 75%;}
+    .col-m-10{width: 83.33%;}
+    .col-m-11{width: 91.66%;}
+    .col-m-12{width: 100%;}  
+  
+    }
+    /*pc*/
+    @media only screen and (min-width:768px){
+    .col-g-1{width: 8.33%;}
+    .col-g-2{width: 16.66%;}
+    .col-g-3{width: 25%;}
+    .col-g-4{width: 33.33%;}
+    .col-g-5{width: 41.66%;}
+    .col-g-6{width: 50%;}
+    .col-g-7{width: 58.33%;}
+    .col-g-8{width: 66.66%;}
+    .col-g-9{width: 75%;}
+    .col-g-10{width: 83.33%;}
+    .col-g-11{width: 91.66%;}
+    .col-g-12{width: 100%;} 
+    }
+    .imagen{
+        margin-top: 10px;
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px; 
+        width:80%;
+        float:left;
+        margin-left: 5%;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));  
+        border-color: #C4C4C4;
+    }
+    .text {
+        background-color: #F6F7F8;
+        padding: 10px;
+        border-radius: 5px;
+        width:60%;
+        float: left;
+        font-weight: bold;
+        font-size: 40px;
+        font-family:Quicksand;
+        margin-top:2%;
+        margin-left: 12%;
+        color: red;
+        filter:drop-shadow(5px 5px 10px rgba(0,0,0,0.8));
+        border-color: #C4C4C4;
+    }
+    
+    .text ul{
+        font-weight: bold;
+        font-size: 20px;
+        font-family:serif;
+        color: #000000; 
+    }
+    
+    .text input[type=submit]{
+        padding: 15px 15px;
+        background-color: tomato;
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+        border:none;
+        outline: none;
+        width: 30%;
+        font-size: 0.34em;
+        font-family: 'Quicksand', sans-serif;
+        border-radius: 25px;
+        margin-left: 70%;
+    }
+
+    .text input:hover[type=submit]:hover{
+        color:white;
+      background-color:rgb(247, 45, 9) ;
+      border-radius: 25px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="col-g-6 col-m-6 col-6 imagen" align="center">
+    <img src= "https://tesla-cdn.thron.com/delivery/public/image/tesla/3863f3e5-546a-4b22-bcbc-1f8ee0479744/bvlatuR/std/1200x628/MX-Social" alt="" width="80%" height="80%" align="center" > 
+</div>
+<div class="col-g-6 col-m-6 col-6 text" align="center">
+    <p>Tesla Model X</p>
+    <ul align= "left">
+        <li>Version: Model X Plaid AWD - 5-puertas - 2021 </li><br>
+        <li>Cambio: Automatico</li><br>
+        <li>Combustible: Electrico</li><br>
+        <li>Potencia: 772 CV</li><br>
+        <li>Año: 2021</li><br>
+        <li>Precio: 119.990 €</li>
+    </ul>
+    <input type="submit" value="¡Comprelo ya!">
+</div>
+</body>
+
+
+</html>

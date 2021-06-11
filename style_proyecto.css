@@ -15,19 +15,25 @@ body {margin: 0;
            
                   
 }
-ul.topnav {list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color:#F5F8FA; font-size: 29.5px;  font-family: quicksand; }
-ul.topnav li {float: left;}
-ul.topnav li a {display: block;color: #33475b;text-align: center;padding: 5px 12px;text-decoration: none;margin-top: 5px;;margin-bottom: 0px;}
-ul.topnav li.palos   {margin-top: 5px;}
-ul.topnav li div a.boton{background-color:#8bd6f1 ;border-radius: 15px;margin-left: 25px; }
-ul.topnav li div a.boton2{background-color:#8bd6f1;border-radius: 15px;margin-left:10px;}
-ul.topnav li.left {margin-top: 5px;}
-.topnav a:hover{
- border-radius: 5px;
- padding: 0.2em  0.8rem;
- background-color:rgba(0, 0, 0, 0.103);
- border-radius: 15px;
- transition: all 0.3s linear;    }
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+      }
+  ul.topnav {list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color:#F5F8FA; font-size: 29.5px;  font-family: quicksand; }
+  ul.topnav li {float: left;}
+  ul.topnav li a {display: block;color: #33475b;text-align: center;padding: 5px 10px;text-decoration: none;margin-top: 5px;;margin-bottom: 0px;}
+  ul.topnav li.palos   {margin-top: 5px;}
+  ul.topnav li div a.boton{background-color:#8bd6f1 ;border-radius: 15px;margin-left: 10px; }
+  ul.topnav li div a.boton2{background-color:#8bd6f1;border-radius: 15px;margin-left:10px; font-size: 25px;}
+  ul.topnav li.left {margin-top: 5px;}
+  .topnav a:hover{
+      border-radius: 5px;
+      padding: 0.2em  0.8rem;
+      background-color:rgba(0, 0, 0, 0.103);
+      border-radius: 15px;
+      transition: all 0.3s linear;    }
+  .ENCABEZADO h1{ text-align: center; margin-top: 15px;}
 @media screen and (max-width: 600px) {ul.topnav li.right,ul.topnav li.left{margin-left: 180px}ul.topnav li.palos  {margin-top: 0;display: none;} ul.topnav li div a.boton {margin-left: 0px; }ul.topnav li {float: none;}ul.topnav li  {font-size: 13px;}}
 
 body{
@@ -146,3 +152,4 @@ border-radius: 25px;
 .col-11{width: 91.66%;}
 .col-12{width: 100%;}  
 }
+@media screen and (max-width: 600px) {ul.topnav li.right,ul.topnav li.left{margin-left: 180px}ul.topnav li.palos  {margin-top: 0;display: none;} ul.topnav li div a.boton {margin-left: 0px; }ul.topnav li {float: none;}ul.topnav li  {font-size: 13px;}}
