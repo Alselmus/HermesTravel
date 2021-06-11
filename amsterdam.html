@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMSTERDAM</title>
+    <style>
+         *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+         }
+
+ 
+    [class*='col-']{
+    float:left;
+    padding: 15px;
+    width: 100%;
+        }
+
+        .row::after{
+  content: '';
+  display: table;
+  clear: both;
+
+    }
+
+[class*='col-']{
+  float:left;
+  padding: 15px;    }
+         ul.topnav {list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color:#F5F8FA; font-size: 29.5px;  font-family: quicksand; }
+    ul.topnav li {float: left;}
+    ul.topnav li a {display: block;color: #33475b;text-align: center;padding: 5px 10px;text-decoration: none;margin-top: 5px;;margin-bottom: 0px;}
+    ul.topnav li.palos   {margin-top: 5px;}
+    ul.topnav li div a.boton{background-color:#8bd6f1 ;border-radius: 15px;margin-left: 10px; }
+    ul.topnav li div a.boton2{background-color:#8bd6f1;border-radius: 15px;margin-left:10px; font-size: 25px;}
+    ul.topnav li.left {margin-top: 5px;}
+    .topnav a:hover{
+        border-radius: 5px;
+        padding: 0.2em  0.8rem;
+        background-color:rgba(0, 0, 0, 0.103);
+        border-radius: 15px;
+        transition: all 0.3s linear;    }
+    @media screen and (max-width: 600px) {h2 {font-size: 10px;}.contenedor-imagenes {width: 90%; }.contenedor-imagenes .imagen {width: 48%;} ul.topnav li.right,ul.topnav li.left{margin-left: 180px;}ul.topnav li.palos  {margin-top: 0;display: none;} ul.topnav li div a.boton {margin-left: 0px; }ul.topnav li {float: none;}ul.topnav li  {font-size: 13px;}}
+    
+    .CONTAINER {
+        margin:auto;
+        background-color: white;
+        width:800px;
+        padding:30px;
+    }
+    .CONTAINER ul li   {
+        margin:0;
+        padding:0;
+        list-style: none;
+    }
+    ul.slider   {
+            position:relative;
+            width: 800px;
+            height: 300px;
+    }
+    ul.slider li    {
+        position:absolute;
+        left: 0;
+        top:0;
+        opacity: 0;
+        width: inherit;
+        height: inherit;
+        background-color: white;
+        transition: opacity .5s;
+    }
+    ul.slider li img{
+        width:100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    ul.slider li:target {opacity: 1;}
+    ul.slider li:first-child    {opacity:1;}
+    .menu {text-align: center; margin:20px}
+    .menu   li{   
+        display: inline-block;
+        text-align: center;
+
+
+    }
+    .menu li a {
+        display: inline-block;
+        color: black;
+        text-decoration: none;
+        background-color: grey;
+        padding:10 px;
+        width: 20px;
+        height: 20px;
+        font-size: 20px;
+        border-radius: 100%;
+    }
+    @media screen and (max-width:700px){
+        .CONTAINER {
+      
+        width:500px;
+        padding:30px;
+    }
+    ul.slider   {
+            position:relative;
+            width: 500px;
+            height: 100px;
+    }
+  
+    ul.slider li img{
+        width:70%;
+        height: 300px;
+        object-fit: cover;
+    }
+        }
+    
+    
+    @media screen and (max-width:450px){
+        .CONTAINER {
+      
+      width:300px;
+      padding:30px;
+  }
+  ul.slider   {
+          position:relative;
+          width: 95%;
+          height: 100px;
+  }
+
+  ul.slider li img{
+      width:98%;
+      height: 80%;
+  }
+}
+ 
+.ENCABEZADO {text-align: center; margin-top: 3%;}
+.calendario  {text-align: left; font-size: 25px; text-align:center;
+    
+}
+.ida{text-align: right; font-weight: bold; padding-right: 150px;}
+.central{background-color: rgb(221, 217, 217);margin-top: 30px; margin-bottom: 15px;}
+.boton{background-color:rgb(165, 6, 6) ;margin-left: 70%; color:black;text-decoration: none; font-size: 30px; text-align: right;}
+@media only screen and (min-width:597px){
+.col-m-1{width: 8.33%;}
+.col-m-2{width: 16.66%;}
+.col-m-3{width: 25%;}
+.col-m-4{width: 33.33%;}
+.col-m-5{width: 41.66%;}
+.col-m-6{width: 50%;}
+.col-m-7{width: 58.33%;}
+.col-m-8{width: 66.66%;}
+.col-m-9{width: 75%;}
+.col-m-10{width: 83.33%;}
+.col-m-11{width: 91.66%;}
+.col-m-12{width: 100%;}  
+}
+
+/*laptop y pc*/
+@media only screen and (min-width:768px){
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}  
+}
+   
+    </style>
+</head>
+   
+<body>
+    <div class="nav">
+        <ul class="topnav">
+            <li class="left"> <img src="titulo.jpg " width="50px"></li>
+            <li><a class="right" href="index.html">VIAJES</a></li>
+            <li class="palos">|</li>
+            <li><a class="right" href="Vuelos.html">VUELOS</a></li>
+            <li class="palos">|</li>
+            <li><a class="right" href="Ciudades.html">HOTELES</a></li>
+            <li class="palos">|</li>
+            <li><a class="right" href="Autos.Html">AUTOS</a></li>
+            <li class="palos">|</li>
+            <li><a class="right" href="Seguro.html">SEGURO</a></li>
+            <li class="palos">|</li>
+            <li><div><a class="boton" href="registrarse.html"><img src="icons8-cuenta-96.png" width="25px">Registrar</a></div></li>
+            <li><div><a class="boton2" href="inicio.html"><img src="icons8-cuenta-96.png" width="20px">Inicio de sesion</a></div></li>        </ul>
+    </div>
+
+    <div class="ENCABEZADO" >
+        <h1>LAS VEGAS</h1>
+    <div class="CONTAINER">
+
+            <ul class="slider">
+                <li id="slide1">   
+                <img src="amsterdam1.jpg">
+                </li>
+
+                <li id="slide2"><img src="amsterdam2.jpg" >
+                </li>
+                <li id="slide3"><img src="amsterdam3.jpg" >
+                </li>
+                <li id="slide4"><img src="amterdam4.jpg" >
+                </li>
+                <li id="slide5"><img src="amsterdam5.jpg" >
+                </li>
+                
+            </ul>
+            <ul class="menu">
+
+                <li><a href="#slide1">1</a></li>
+                <li><a href="#slide2">2</a></li>
+                <li><a href="#slide3">3</a></li>
+                <li><a href="#slide4">4</a></li>
+                <li><a href="#slide5">5</a></li>
+            </ul>
+        </div>
+    <div class="calendario">
+
+                <P>DURACION DEL VIAJE:
+                    
+                    <input type="radio" name="hm" value="s"> Sin especificar
+                    <input type="radio" name="hm" value="f"> Fines de Semana
+                    <input type="radio" name="hm" value=""> de 4 a 7 dias
+                    <input type="radio" name="hm" value=""> de 8 a 14 dias
+                    <input type="radio" name="hm" value=""> de 15 a 21 dias
+                  </p>
+            </div>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-1 col-m-6"> </div>
+        <div class="col-10 col-m-12 central">
+            <h2>BOLETO IDA-VUELTA</h2> <P class="ida">COMAYAGUA----------------AMSTERDAM     DIRECTO</P>
+            <p> 15:55 HASTA 17:30
+                    </p>
+            
+            <div><a class="boton" href="#"><img src="icons8-cuenta-96.png" width="25px">COMPRAR BOLETO</a></div></li>
+        </div>
+        <div class="col-1 col-m-6"></div>
+    </div>
+
+</body>
